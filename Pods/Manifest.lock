@@ -1,0 +1,70 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Bugly (2.5.0)
+  - FMDB/SQLCipher (2.7.5):
+    - SQLCipher
+  - IQKeyboardManager (6.2.0)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
+  - SAMKeychain (1.5.3)
+  - SQLCipher (4.0.0):
+    - SQLCipher/standard (= 4.0.0)
+  - SQLCipher/common (4.0.0)
+  - SQLCipher/standard (4.0.0):
+    - SQLCipher/common
+  - WechatOpenSDK (1.8.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Bugly
+  - FMDB/SQLCipher
+  - IQKeyboardManager
+  - Masonry (~> 1.1.0)
+  - MJExtension
+  - MJRefresh
+  - SAMKeychain
+  - WechatOpenSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Bugly
+    - FMDB
+    - IQKeyboardManager
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - SAMKeychain
+    - SQLCipher
+    - WechatOpenSDK
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SQLCipher: 37c820e1ada7f2c2782ec6bfb6be9a9660209ff5
+  WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
+
+PODFILE CHECKSUM: ca37dd1006e07d70bfc43b1a394cd77703267a61
+
+COCOAPODS: 1.6.1

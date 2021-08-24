@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KDSHelpViewController">
+            <connections>
+                <outlet property="helpStepLab" destination="TtX-Ah-VU4" id="zDF-uN-CrI"/>
+                <outlet property="helptitleLab" destination="Al1-FU-TIB" id="0GL-KY-ZwX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hgA-Bh-Gxw">
+                    <rect key="frame" x="10" y="41" width="355" height="190"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  无法发现您的蓝牙设备，请按照以下步骤对设备进行检查：          " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Al1-FU-TIB">
+                            <rect key="frame" x="10" y="0.0" width="337" height="46"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="46" id="4uV-yY-oTQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CtF-4S-xUE">
+                            <rect key="frame" x="0.0" y="4" width="2" height="15"/>
+                            <color key="backgroundColor" red="0.1764705882352941" green="0.85098039215686272" blue="0.72941176470588232" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="AsC-q9-Ydm"/>
+                                <constraint firstAttribute="width" constant="2" id="rnS-TR-zDQ"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.请保证您的设备已经接通，或电池电量充足 \n2.请打开您的手机蓝牙 \n3.保持待添加的设备与手机的距离不超过5米，从而保证设备间的通信 \n 4.按重置键后松开，重启系统" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtX-Ah-VU4">
+                            <rect key="frame" x="8" y="54" width="339" height="120"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="120" id="Zeh-N3-BuM"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Al1-FU-TIB" secondAttribute="trailing" constant="8" id="06C-yH-Rwt"/>
+                        <constraint firstItem="TtX-Ah-VU4" firstAttribute="top" secondItem="Al1-FU-TIB" secondAttribute="bottom" constant="8" id="Lj2-Ir-FOI"/>
+                        <constraint firstItem="CtF-4S-xUE" firstAttribute="leading" secondItem="hgA-Bh-Gxw" secondAttribute="leading" id="Lwc-7C-zuS"/>
+                        <constraint firstItem="Al1-FU-TIB" firstAttribute="leading" secondItem="CtF-4S-xUE" secondAttribute="trailing" constant="8" id="PFv-X4-HxD"/>
+                        <constraint firstItem="TtX-Ah-VU4" firstAttribute="leading" secondItem="hgA-Bh-Gxw" secondAttribute="leading" constant="8" id="S7h-Sb-S35"/>
+                        <constraint firstAttribute="trailing" secondItem="TtX-Ah-VU4" secondAttribute="trailing" constant="8" id="XjW-jl-K6h"/>
+                        <constraint firstItem="Al1-FU-TIB" firstAttribute="top" secondItem="hgA-Bh-Gxw" secondAttribute="top" id="czL-E7-KLC"/>
+                        <constraint firstItem="CtF-4S-xUE" firstAttribute="top" secondItem="hgA-Bh-Gxw" secondAttribute="top" constant="4" id="mel-wE-hpQ"/>
+                        <constraint firstAttribute="height" constant="190" id="sTm-Bk-Ybn"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="hgA-Bh-Gxw" secondAttribute="trailing" constant="10" id="BMf-1O-rSR"/>
+                <constraint firstItem="hgA-Bh-Gxw" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="21" id="DXw-Bg-aFU"/>
+                <constraint firstItem="hgA-Bh-Gxw" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="jTJ-qF-m9s"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="138.40000000000001" y="152.47376311844079"/>
+        </view>
+    </objects>
+</document>

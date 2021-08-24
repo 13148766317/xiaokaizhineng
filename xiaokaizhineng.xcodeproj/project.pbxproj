@@ -1,0 +1,1962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E7A334D22F01613001DE2D6 /* KDSBleOpRec.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7A334C22F01613001DE2D6 /* KDSBleOpRec.m */; };
+		2E7A335122F01673001DE2D6 /* KDSCodingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7A334F22F01673001DE2D6 /* KDSCodingObject.m */; };
+		2E7A335422F02378001DE2D6 /* KDSOperationalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7A335322F02378001DE2D6 /* KDSOperationalRecord.m */; };
+		7112979822FBC2AC00874D01 /* KDSDFUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7112979622FBC2AC00874D01 /* KDSDFUViewController.m */; };
+		7112979922FBC2AC00874D01 /* KDSDFUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7112979722FBC2AC00874D01 /* KDSDFUViewController.xib */; };
+		7112979C22FBC7E900874D01 /* KDSBreakpointDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 7112979B22FBC7E900874D01 /* KDSBreakpointDownload.m */; };
+		711297AF22FC028200874D01 /* BootLoaderServiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 711297A122FC028200874D01 /* BootLoaderServiceModel.m */; };
+		711297B022FC028200874D01 /* CyCBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 711297A322FC028200874D01 /* CyCBManager.m */; };
+		711297B122FC028200874D01 /* CBPeripheralExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 711297A522FC028200874D01 /* CBPeripheralExt.m */; };
+		711297B222FC028200874D01 /* NSString+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 711297A722FC028200874D01 /* NSString+hex.m */; };
+		711297B322FC028200874D01 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 711297AC22FC028200874D01 /* Utilities.m */; };
+		711297B422FC028200874D01 /* ResourceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 711297AD22FC028200874D01 /* ResourceHandler.m */; };
+		711297B522FC028200874D01 /* OTAFileParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 711297AE22FC028200874D01 /* OTAFileParser.m */; };
+		711297B823055BC400874D01 /* JGProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 711297B623055BC000874D01 /* JGProgressView.m */; };
+		7118B976221699D7001391E0 /* KDSCycleSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B96D221699D5001391E0 /* KDSCycleSelectViewController.m */; };
+		7118B977221699D7001391E0 /* KDSAgingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B96E221699D5001391E0 /* KDSAgingViewController.xib */; };
+		7118B979221699D7001391E0 /* KDSCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B973221699D7001391E0 /* KDSCycleViewController.m */; };
+		7118B97A221699D7001391E0 /* KDSAgingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B974221699D7001391E0 /* KDSAgingViewController.m */; };
+		7118B97B221699D7001391E0 /* KDSCycleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B975221699D7001391E0 /* KDSCycleViewController.xib */; };
+		7118B97E22169FBC001391E0 /* KDSEverydayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B97D22169FBC001391E0 /* KDSEverydayView.m */; };
+		7118B98022169FD2001391E0 /* KDSEverydayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B97F22169FD2001391E0 /* KDSEverydayView.xib */; };
+		7118B9842216A349001391E0 /* KDSWeekDaySelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B9822216A349001391E0 /* KDSWeekDaySelectTableViewCell.m */; };
+		7118B9852216A349001391E0 /* KDSWeekDaySelectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B9832216A349001391E0 /* KDSWeekDaySelectTableViewCell.xib */; };
+		7118B98F2216B663001391E0 /* KDSAddTempPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B98D2216B663001391E0 /* KDSAddTempPwdViewController.m */; };
+		7118B9902216B663001391E0 /* KDSAddTempPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B98E2216B663001391E0 /* KDSAddTempPwdViewController.xib */; };
+		7118B9942216BDDD001391E0 /* KDSTempPwdDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B9922216BDDD001391E0 /* KDSTempPwdDetailVC.m */; };
+		7118B9952216BDDD001391E0 /* KDSTempPwdDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B9932216BDDD001391E0 /* KDSTempPwdDetailVC.xib */; };
+		7118B99A221A3FC2001391E0 /* KDSFingerprintManaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B998221A3FC2001391E0 /* KDSFingerprintManaViewController.m */; };
+		7118B99B221A3FC2001391E0 /* KDSFingerprintManaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B999221A3FC2001391E0 /* KDSFingerprintManaViewController.xib */; };
+		7118B99F221A411C001391E0 /* KDSFingerprintManaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B99D221A411C001391E0 /* KDSFingerprintManaTableViewCell.m */; };
+		7118B9A0221A411C001391E0 /* KDSFingerprintManaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B99E221A411C001391E0 /* KDSFingerprintManaTableViewCell.xib */; };
+		7118B9B3221A7D74001391E0 /* KDSFingerprintDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B9B1221A7D74001391E0 /* KDSFingerprintDetailVC.m */; };
+		7118B9B4221A7D74001391E0 /* KDSFingerprintDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B9B2221A7D74001391E0 /* KDSFingerprintDetailVC.xib */; };
+		7118B9BE221A877D001391E0 /* KDSCardListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B9BC221A877D001391E0 /* KDSCardListViewController.m */; };
+		7118B9BF221A877D001391E0 /* KDSCardListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B9BD221A877D001391E0 /* KDSCardListViewController.xib */; };
+		7118B9C3221A882C001391E0 /* KDSCardListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B9C1221A882C001391E0 /* KDSCardListTableViewCell.m */; };
+		7118B9C4221A882C001391E0 /* KDSCardListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B9C2221A882C001391E0 /* KDSCardListTableViewCell.xib */; };
+		7118B9D2221A9BC5001391E0 /* KDSCardDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B9D0221A9BC5001391E0 /* KDSCardDetailViewController.m */; };
+		7118B9D3221A9BC5001391E0 /* KDSCardDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B9D1221A9BC5001391E0 /* KDSCardDetailViewController.xib */; };
+		7118B9DD221AA355001391E0 /* KDSFamilyMemberlistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B9DB221AA355001391E0 /* KDSFamilyMemberlistVC.m */; };
+		7118B9DE221AA355001391E0 /* KDSFamilyMemberlistVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B9DC221AA355001391E0 /* KDSFamilyMemberlistVC.xib */; };
+		7118B9E2221AA504001391E0 /* KDSFamilyMemberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B9E0221AA504001391E0 /* KDSFamilyMemberTableViewCell.m */; };
+		7118B9E3221AA504001391E0 /* KDSFamilyMemberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B9E1221AA504001391E0 /* KDSFamilyMemberTableViewCell.xib */; };
+		7118B9E7221AA6D2001391E0 /* KDSAddMemberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B9E5221AA6D2001391E0 /* KDSAddMemberVC.m */; };
+		7118B9E8221AA6D2001391E0 /* KDSAddMemberVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B9E6221AA6D2001391E0 /* KDSAddMemberVC.xib */; };
+		7118B9EC221AAA76001391E0 /* KDSMemberDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118B9EA221AAA76001391E0 /* KDSMemberDetailVC.m */; };
+		7118B9ED221AAA76001391E0 /* KDSMemberDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7118B9EB221AAA76001391E0 /* KDSMemberDetailVC.xib */; };
+		712355422213C43900B1A925 /* UIView+CBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 712355412213C43900B1A925 /* UIView+CBExtension.m */; };
+		712355452213C44700B1A925 /* CBGroupAndStreamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 712355442213C44700B1A925 /* CBGroupAndStreamView.m */; };
+		7123554922141B6100B1A925 /* KDSHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7123554622141B6100B1A925 /* KDSHelpViewController.m */; };
+		7123554A22141B6100B1A925 /* KDSHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7123554722141B6100B1A925 /* KDSHelpViewController.xib */; };
+		7123554E22143B0600B1A925 /* WSDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7123554B22143B0500B1A925 /* WSDatePickerView.xib */; };
+		7123554F22143B0600B1A925 /* WSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7123554D22143B0500B1A925 /* WSDatePickerView.m */; };
+		7123555222143C2D00B1A925 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7123555122143C2D00B1A925 /* NSDate+Extension.m */; };
+		7123555522143C5B00B1A925 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7123555422143C5B00B1A925 /* UIView+Extension.m */; };
+		71404D7A223A5F850094E76A /* KDSDeviceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71404D77223A5F850094E76A /* KDSDeviceInfoViewController.m */; };
+		71404D7B223A5F850094E76A /* KDSDeviceInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71404D78223A5F850094E76A /* KDSDeviceInfoViewController.xib */; };
+		7166F3D0221175B20092EEFF /* KDSPwdListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7166F3CE221175B20092EEFF /* KDSPwdListViewController.m */; };
+		7166F3D1221175B20092EEFF /* KDSPwdListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7166F3CF221175B20092EEFF /* KDSPwdListViewController.xib */; };
+		7166F3D4221178160092EEFF /* UIView+BlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7166F3D2221178160092EEFF /* UIView+BlockGesture.m */; };
+		7166F3D722117FB50092EEFF /* KDSPwsTongbu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7166F3D622117FB50092EEFF /* KDSPwsTongbu.m */; };
+		7166F3D922117FC80092EEFF /* KDSPwsTongbu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7166F3D822117FC80092EEFF /* KDSPwsTongbu.xib */; };
+		7166F3DD221190520092EEFF /* KDSPwdListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7166F3DB221190520092EEFF /* KDSPwdListTableViewCell.m */; };
+		7166F3DE221190520092EEFF /* KDSPwdListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7166F3DC221190520092EEFF /* KDSPwdListTableViewCell.xib */; };
+		7166F3EC2212A8620092EEFF /* KDSAddPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7166F3EA2212A8620092EEFF /* KDSAddPwdViewController.m */; };
+		7166F3F12212A8810092EEFF /* KDSPwdEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7166F3EF2212A8810092EEFF /* KDSPwdEditViewController.m */; };
+		7166F3F22212A8810092EEFF /* KDSPwdEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7166F3F02212A8810092EEFF /* KDSPwdEditViewController.xib */; };
+		7166F3F52212D0CC0092EEFF /* SectionChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7166F3F42212D0CC0092EEFF /* SectionChooseView.m */; };
+		7173328B223000EA0095BDE2 /* WeekModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71733289223000EA0095BDE2 /* WeekModel.m */; };
+		7173328F2232185A0095BDE2 /* KDSTemPwdlistdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173328D2232185A0095BDE2 /* KDSTemPwdlistdViewController.m */; };
+		717332902232185A0095BDE2 /* KDSTemPwdlistdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7173328E2232185A0095BDE2 /* KDSTemPwdlistdViewController.xib */; };
+		717B9AD9221E972200249081 /* KDSPwdListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 717B9AD7221E972200249081 /* KDSPwdListModel.m */; };
+		71974B71223FB96400E4AF8D /* KDSHttpResOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 71974B70223FB96400E4AF8D /* KDSHttpResOption.m */; };
+		71974B7522410DD800E4AF8D /* KDSAddPwdSuccesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71974B7322410DD800E4AF8D /* KDSAddPwdSuccesVC.m */; };
+		71974B7622410DD800E4AF8D /* KDSAddPwdSuccesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71974B7422410DD800E4AF8D /* KDSAddPwdSuccesVC.xib */; };
+		71974B7A2243918200E4AF8D /* KDSHomepageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71974B782243918200E4AF8D /* KDSHomepageVC.m */; };
+		C23588F3223289FA0060C459 /* KDSSystemMsgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C23588F1223289F90060C459 /* KDSSystemMsgVC.m */; };
+		C237F51621FAE93C00F834C7 /* KDSHttpManager+Ble.m in Sources */ = {isa = PBXBuildFile; fileRef = C237F51521FAE93C00F834C7 /* KDSHttpManager+Ble.m */; };
+		C237F51921FAEA2A00F834C7 /* MyDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C237F51821FAEA2A00F834C7 /* MyDevice.m */; };
+		C237F52221FAEE2F00F834C7 /* KDSDeviceNicknameView.m in Sources */ = {isa = PBXBuildFile; fileRef = C237F52121FAEE2F00F834C7 /* KDSDeviceNicknameView.m */; };
+		C23DCAA3222D1EF600606780 /* KDSAddKeyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCAA2222D1EF600606780 /* KDSAddKeyVC.m */; };
+		C23DCAA62230A0BE00606780 /* KDSSecurityAuthenticationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCAA52230A0BE00606780 /* KDSSecurityAuthenticationVC.m */; };
+		C23DCAA922310F3800606780 /* KDSFAQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCAA822310F3800606780 /* KDSFAQ.m */; };
+		C23DCAAC2231110700606780 /* KDSSysMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCAAB2231110700606780 /* KDSSysMessage.m */; };
+		C23DCAAF2232176700606780 /* KDSSysMsgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCAAE2232176700606780 /* KDSSysMsgCell.m */; };
+		C23DCAB222324C1000606780 /* KDSSystemMsgDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCAB122324C1000606780 /* KDSSystemMsgDetailsVC.m */; };
+		C23DCAB522324D9400606780 /* KDSSysMsgDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCAB422324D9400606780 /* KDSSysMsgDetailsCell.m */; };
+		C2474E53222531A900BC6082 /* KDSAuthHelpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2474E52222531A900BC6082 /* KDSAuthHelpVC.m */; };
+		C2474E56222536D900BC6082 /* KDSAuthHelpCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2474E55222536D900BC6082 /* KDSAuthHelpCell.m */; };
+		C2474E592226703100BC6082 /* KDSAlarmModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2474E582226703100BC6082 /* KDSAlarmModel.m */; };
+		C2474E5C22278B2500BC6082 /* KDSFAQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2474E5B22278B2500BC6082 /* KDSFAQViewController.m */; };
+		C2474E5F2227D99D00BC6082 /* KDSAuthMember.m in Sources */ = {isa = PBXBuildFile; fileRef = C2474E5E2227D99D00BC6082 /* KDSAuthMember.m */; };
+		C2474E622229377C00BC6082 /* KDSAutoConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2474E612229377C00BC6082 /* KDSAutoConnectViewController.m */; };
+		C24A2BFA21F99D2B00AB98B4 /* loginCaptchaAccessory.png in Resources */ = {isa = PBXBuildFile; fileRef = C24A2BF921F99D2B00AB98B4 /* loginCaptchaAccessory.png */; };
+		C24A2BFC21F9B04300AB98B4 /* server.p12 in Resources */ = {isa = PBXBuildFile; fileRef = C24A2BFB21F9B04300AB98B4 /* server.p12 */; };
+		C24A2C0021F9B20700AB98B4 /* KDSDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C24A2BFF21F9B20700AB98B4 /* KDSDBManager.m */; };
+		C24A2C0621F9BA9E00AB98B4 /* NSString+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C24A2C0521F9BA9E00AB98B4 /* NSString+extension.m */; };
+		C24A2C0A21F9D4F000AB98B4 /* KDSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C24A2C0921F9D4F000AB98B4 /* KDSUser.m */; };
+		C2523A6721EC971500AC1BCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2523A6621EC971500AC1BCD /* AppDelegate.m */; };
+		C2523A6F21EC971700AC1BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2523A6E21EC971700AC1BCD /* Assets.xcassets */; };
+		C2523A7221EC971700AC1BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2523A7021EC971700AC1BCD /* LaunchScreen.storyboard */; };
+		C2523A7521EC971700AC1BCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2523A7421EC971700AC1BCD /* main.m */; };
+		C2523A8321ED609E00AC1BCD /* sortedChFantinames.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2523A7E21ED609E00AC1BCD /* sortedChFantinames.plist */; };
+		C2523A8421ED609E00AC1BCD /* sortedChnames.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2523A8021ED609E00AC1BCD /* sortedChnames.plist */; };
+		C2523A8521ED609E00AC1BCD /* sortedEnames.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2523A8121ED609E00AC1BCD /* sortedEnames.plist */; };
+		C2523A8621ED609E00AC1BCD /* XWCountryCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2523A8221ED609E00AC1BCD /* XWCountryCodeController.m */; };
+		C2523A8B21ED610600AC1BCD /* KDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2523A8A21ED610600AC1BCD /* KDSViewController.m */; };
+		C2523A8E21ED615A00AC1BCD /* KDSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2523A8D21ED615A00AC1BCD /* KDSNavigationController.m */; };
+		C2523A9221ED6CB300AC1BCD /* KDSLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2523A9121ED6CB300AC1BCD /* KDSLoginVC.m */; };
+		C2523A9721ED79DF00AC1BCD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2523A9921ED79DF00AC1BCD /* Localizable.strings */; };
+		C2523AA921EDA20900AC1BCD /* KDSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2523AA821EDA20900AC1BCD /* KDSTableViewController.m */; };
+		C2523AAD21EDA72100AC1BCD /* KDSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C2523AAC21EDA72100AC1BCD /* KDSTool.m */; };
+		C2523AB021EDB20700AC1BCD /* KDSSignupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2523AAF21EDB20700AC1BCD /* KDSSignupVC.m */; };
+		C2523AB621EDBA5300AC1BCD /* NSTimer+KDSBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C2523AB521EDBA5200AC1BCD /* NSTimer+KDSBlock.m */; };
+		C2523ABD21EDC4D100AC1BCD /* KDSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2523ABC21EDC4D100AC1BCD /* KDSTabBarController.m */; };
+		C2523AD521EDCB9800AC1BCD /* homepageUnlock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2523AD421EDCB9800AC1BCD /* homepageUnlock.jpg */; };
+		C2523AD721EDE07400AC1BCD /* homepageRightArrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2523AD621EDE07400AC1BCD /* homepageRightArrow.jpg */; };
+		C269DD3022237021002B3CAF /* KDSGesturePwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C269DD2F22237021002B3CAF /* KDSGesturePwdVC.m */; };
+		C269DD34222372C3002B3CAF /* KDSGesturePwdView.m in Sources */ = {isa = PBXBuildFile; fileRef = C269DD33222372C3002B3CAF /* KDSGesturePwdView.m */; };
+		C269DD372223D10F002B3CAF /* KDSUserAgreement.m in Sources */ = {isa = PBXBuildFile; fileRef = C269DD362223D10F002B3CAF /* KDSUserAgreement.m */; };
+		C269DD3A2223D9D0002B3CAF /* KDSUserAgreementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C269DD392223D9D0002B3CAF /* KDSUserAgreementVC.m */; };
+		C269DD3D222409EE002B3CAF /* KDSAuthException.m in Sources */ = {isa = PBXBuildFile; fileRef = C269DD3C222409EE002B3CAF /* KDSAuthException.m */; };
+		C269EB2021FEF8CC00647896 /* CRCCODE.plist in Resources */ = {isa = PBXBuildFile; fileRef = C269EB1F21FEF8CC00647896 /* CRCCODE.plist */; };
+		C269EB2321FF1DF100647896 /* KDSUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C269EB2121FF1DF100647896 /* KDSUserManager.m */; };
+		C269EB2B2200401700647896 /* KDSLockPwdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C269EB2A2200401700647896 /* KDSLockPwdInfo.m */; };
+		C273638721F97E49001800AD /* loginBg.png in Resources */ = {isa = PBXBuildFile; fileRef = C273638621F97E49001800AD /* loginBg.png */; };
+		C273638921F98068001800AD /* loginLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C273638821F98067001800AD /* loginLogo.png */; };
+		C273638B21F98377001800AD /* loginUsernameAccessory.png in Resources */ = {isa = PBXBuildFile; fileRef = C273638A21F98377001800AD /* loginUsernameAccessory.png */; };
+		C273638F21F98FCD001800AD /* loginPwdRightAccessoryNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = C273638E21F98FCD001800AD /* loginPwdRightAccessoryNormal.png */; };
+		C273639121F98FE9001800AD /* loginPwdRightAccessorySelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C273639021F98FE9001800AD /* loginPwdRightAccessorySelected.png */; };
+		C2745E9E2240D9130003557F /* KDSClearGesturePwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2745E9D2240D9130003557F /* KDSClearGesturePwdVC.m */; };
+		C2766ED32221304200112700 /* KDSSecuritySettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2766ED22221304200112700 /* KDSSecuritySettingVC.m */; };
+		C279D424221A495100956280 /* KDSLockSecurityModeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D423221A495100956280 /* KDSLockSecurityModeVC.m */; };
+		C279D42E221A917A00956280 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D42D221A917A00956280 /* News.m */; };
+		C279D431221AAF4200956280 /* KDSRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D430221AAF4200956280 /* KDSRecordCell.m */; };
+		C279D437221BC71200956280 /* KDSRecordHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D436221BC71200956280 /* KDSRecordHeaderFooterView.m */; };
+		C279D440221C2A1500956280 /* KDSLockInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D43B221C2A1500956280 /* KDSLockInfoVC.m */; };
+		C279D441221C2A1500956280 /* KDSRecordDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D43D221C2A1500956280 /* KDSRecordDetailsVC.m */; };
+		C279D449221F913500956280 /* KDSMeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D448221F913500956280 /* KDSMeTableViewCell.m */; };
+		C279D44C221F9F9600956280 /* KDSMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D44B221F9F9600956280 /* KDSMeVC.m */; };
+		C279D44F221FA10600956280 /* KDSHttpManager+User.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D44E221FA10600956280 /* KDSHttpManager+User.m */; };
+		C279D452221FC6C200956280 /* KDSPersonalProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D451221FC6C200956280 /* KDSPersonalProfileVC.m */; };
+		C279D455221FC85500956280 /* KDSPersonalProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D454221FC85500956280 /* KDSPersonalProfileCell.m */; };
+		C279D458221FDB8800956280 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C279D45A221FDB8800956280 /* InfoPlist.strings */; };
+		C279D45F221FE5E500956280 /* KDSModifyNicknameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D45E221FE5E500956280 /* KDSModifyNicknameVC.m */; };
+		C279D462221FEE8900956280 /* KDSModifyPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D461221FEE8900956280 /* KDSModifyPwdVC.m */; };
+		C279D469221FFED900956280 /* KDSAboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D468221FFED900956280 /* KDSAboutVC.m */; };
+		C279D46C22200A1900956280 /* KDSSystemSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D46B22200A1900956280 /* KDSSystemSettingVC.m */; };
+		C279D47122200E3600956280 /* KDSLanguageSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C279D47022200E3600956280 /* KDSLanguageSettingVC.m */; };
+		C28584812237403400FF94A0 /* KDSUnlockAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = C28584802237403400FF94A0 /* KDSUnlockAttr.m */; };
+		C2A866882239F745005E0AF3 /* loginAgreement.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A866872239F745005E0AF3 /* loginAgreement.png */; };
+		C2A8668A2239F752005E0AF3 /* loginNoAgreement.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A866892239F752005E0AF3 /* loginNoAgreement.png */; };
+		C2A86690223A2702005E0AF3 /* KDSTutorialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A8668F223A2702005E0AF3 /* KDSTutorialVC.m */; };
+		C2A866CF223A54FE005E0AF3 /* tutorial62.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A866C3223A54FD005E0AF3 /* tutorial62.png */; };
+		C2A866D0223A54FE005E0AF3 /* tutorialX2.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A866C4223A54FD005E0AF3 /* tutorialX2.png */; };
+		C2A866D1223A54FE005E0AF3 /* tutorial51.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A866C5223A54FD005E0AF3 /* tutorial51.png */; };
+		C2A866D2223A54FE005E0AF3 /* tutorialMax1.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A866C6223A54FD005E0AF3 /* tutorialMax1.png */; };
+		C2A866D3223A54FE005E0AF3 /* tutorialX1.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A866C7223A54FD005E0AF3 /* tutorialX1.png */; };
+		C2A866D4223A54FE005E0AF3 /* tutorialMax2.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A866C8223A54FD005E0AF3 /* tutorialMax2.png */; };
+		C2A866D5223A54FE005E0AF3 /* tutorialX3.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A866C9223A54FD005E0AF3 /* tutorialX3.png */; };
+		C2A866D6223A54FE005E0AF3 /* tutorial52.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A866CA223A54FD005E0AF3 /* tutorial52.png */; };
+		C2A866D7223A54FE005E0AF3 /* tutorial61.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A866CB223A54FD005E0AF3 /* tutorial61.png */; };
+		C2A866D8223A54FE005E0AF3 /* tutorial63.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A866CC223A54FE005E0AF3 /* tutorial63.png */; };
+		C2A866D9223A54FE005E0AF3 /* tutorial53.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A866CD223A54FE005E0AF3 /* tutorial53.png */; };
+		C2A866DA223A54FE005E0AF3 /* tutorialMax3.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A866CE223A54FE005E0AF3 /* tutorialMax3.png */; };
+		C2B8824D21F5BC90000A2990 /* KDSHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B8824C21F5BC90000A2990 /* KDSHttpManager.m */; };
+		C2B8825721F6B80D000A2990 /* KDSHttpManager+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B8825621F6B80D000A2990 /* KDSHttpManager+Login.m */; };
+		C2B882B021F6FB24000A2990 /* CBPeripheral+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B882AF21F6FB23000A2990 /* CBPeripheral+Extension.m */; };
+		C2B882B321F6FBEC000A2990 /* NSData+JKEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B882B121F6FBEB000A2990 /* NSData+JKEncrypt.m */; };
+		C2B8830021F70478000A2990 /* KDSBleUserType.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B882ED21F70476000A2990 /* KDSBleUserType.m */; };
+		C2B8830121F70478000A2990 /* KDSBleScheduleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B882F021F70477000A2990 /* KDSBleScheduleModel.m */; };
+		C2B8830221F70478000A2990 /* KDSBluetoothTool+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B882F121F70477000A2990 /* KDSBluetoothTool+Category.m */; };
+		C2B8830321F70478000A2990 /* KDSBleUnlockRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B882F221F70477000A2990 /* KDSBleUnlockRecord.m */; };
+		C2B8830421F70478000A2990 /* KDSBleWeeklyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B882F321F70477000A2990 /* KDSBleWeeklyModel.m */; };
+		C2B8830521F70478000A2990 /* KDSBleAlarmRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B882F521F70477000A2990 /* KDSBleAlarmRecord.m */; };
+		C2B8830621F70478000A2990 /* KDSBleYMDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B882F821F70477000A2990 /* KDSBleYMDModel.m */; };
+		C2B8830721F70478000A2990 /* KDSBleTunnelTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B882FC21F70478000A2990 /* KDSBleTunnelTask.m */; };
+		C2B8830821F70478000A2990 /* KDSBluetoothTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B882FF21F70478000A2990 /* KDSBluetoothTool.m */; };
+		C2B8831021F71869000A2990 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B8830B21F71869000A2990 /* MBProgressHUD.m */; };
+		C2B8831121F71869000A2990 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B8830E21F71869000A2990 /* MBProgressHUD+MJ.m */; };
+		C2B8831221F71869000A2990 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C2B8830F21F71869000A2990 /* MBProgressHUD.bundle */; };
+		C2CC969C221266FD00F5B5F0 /* KDSDeviceModelListTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC969B221266FD00F5B5F0 /* KDSDeviceModelListTableVC.m */; };
+		C2CC96A22212933C00F5B5F0 /* KDSDeviceModelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96A12212933C00F5B5F0 /* KDSDeviceModelCell.m */; };
+		C2CC96A52212A39400F5B5F0 /* KDSBleSearchTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96A42212A39400F5B5F0 /* KDSBleSearchTableVC.m */; };
+		C2CC96A82212AF4000F5B5F0 /* KDSBleInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96A72212AF4000F5B5F0 /* KDSBleInfoCell.m */; };
+		C2CC96AC2212C7E700F5B5F0 /* KDSBleBindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96AB2212C7E700F5B5F0 /* KDSBleBindVC.m */; };
+		C2CC96BB2214046700F5B5F0 /* KDSDeviceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96B12214046700F5B5F0 /* KDSDeviceVC.m */; };
+		C2CC96BC2214046700F5B5F0 /* KDSDeviceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2CC96B42214046700F5B5F0 /* KDSDeviceVC.xib */; };
+		C2CC96BD2214046700F5B5F0 /* KDSDeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2CC96B72214046700F5B5F0 /* KDSDeviceTableViewCell.xib */; };
+		C2CC96BE2214046700F5B5F0 /* KDSDeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96B82214046700F5B5F0 /* KDSDeviceTableViewCell.m */; };
+		C2CC96C22214F46F00F5B5F0 /* KDSLock.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96C12214F46F00F5B5F0 /* KDSLock.m */; };
+		C2CC96C52215060200F5B5F0 /* KDSLockMoreSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96C42215060200F5B5F0 /* KDSLockMoreSettingVC.m */; };
+		C2CC96C822150E1C00F5B5F0 /* KDSLockMoreSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96C722150E1C00F5B5F0 /* KDSLockMoreSettingCell.m */; };
+		C2CC96CC221533C000F5B5F0 /* KDSBleLockInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96CB221533C000F5B5F0 /* KDSBleLockInfoModel.m */; };
+		C2CC96D02215875900F5B5F0 /* KDSLockParamVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96CF2215875900F5B5F0 /* KDSLockParamVC.m */; };
+		C2CC96D3221640F100F5B5F0 /* KDSLockPwdManageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96D2221640F100F5B5F0 /* KDSLockPwdManageVC.m */; };
+		C2CC96D72216465D00F5B5F0 /* UIEdgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96D62216465D00F5B5F0 /* UIEdgeLabel.m */; };
+		C2CC96DA22164D2000F5B5F0 /* KDSMoreSettingAlterMgrPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96D922164D2000F5B5F0 /* KDSMoreSettingAlterMgrPwdVC.m */; };
+		C2CC96DC221656C500F5B5F0 /* loginPwdLeftAccessory.png in Resources */ = {isa = PBXBuildFile; fileRef = C2CC96DB221656C500F5B5F0 /* loginPwdLeftAccessory.png */; };
+		C2CC96E82217E2E300F5B5F0 /* KDSAMModeSpecificationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96E72217E2E200F5B5F0 /* KDSAMModeSpecificationVC.m */; };
+		C2CC96EB2217EE8700F5B5F0 /* KDSLockLanguageAlterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96EA2217EE8700F5B5F0 /* KDSLockLanguageAlterVC.m */; };
+		C2CC96EE221804D100F5B5F0 /* KDSLockAlterTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC96ED221804D100F5B5F0 /* KDSLockAlterTimeVC.m */; };
+		C8639AF9B54655FB10226CBB /* Pods_xiaokaizhineng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34BF22254452447D7182785 /* Pods_xiaokaizhineng.framework */; };
+		E18ABB0E57B3066121577734 /* Pods_xiaokaizhineng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34BF22254452447D7182785 /* Pods_xiaokaizhineng.framework */; };
+		E6EBEC7322718AED00A17A7A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBEC7222718AED00A17A7A /* SystemConfiguration.framework */; };
+		E6EBEC7522718B0300A17A7A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBEC7422718B0300A17A7A /* libz.tbd */; };
+		E6EBEC7722718B0F00A17A7A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBEC7622718B0F00A17A7A /* libsqlite3.0.tbd */; };
+		E6EBEC7922718B1900A17A7A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBEC7822718B1900A17A7A /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		247A347ECA4AE6B6414B6337 /* Pods-xiaokaizhineng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaokaizhineng.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xiaokaizhineng/Pods-xiaokaizhineng.debug.xcconfig"; sourceTree = "<group>"; };
+		2E7A334B22F01612001DE2D6 /* KDSBleOpRec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSBleOpRec.h; sourceTree = "<group>"; };
+		2E7A334C22F01613001DE2D6 /* KDSBleOpRec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSBleOpRec.m; sourceTree = "<group>"; };
+		2E7A334F22F01673001DE2D6 /* KDSCodingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSCodingObject.m; sourceTree = "<group>"; };
+		2E7A335022F01673001DE2D6 /* KDSCodingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSCodingObject.h; sourceTree = "<group>"; };
+		2E7A335222F02378001DE2D6 /* KDSOperationalRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSOperationalRecord.h; sourceTree = "<group>"; };
+		2E7A335322F02378001DE2D6 /* KDSOperationalRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSOperationalRecord.m; sourceTree = "<group>"; };
+		7112979522FBC2AC00874D01 /* KDSDFUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSDFUViewController.h; sourceTree = "<group>"; };
+		7112979622FBC2AC00874D01 /* KDSDFUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSDFUViewController.m; sourceTree = "<group>"; };
+		7112979722FBC2AC00874D01 /* KDSDFUViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSDFUViewController.xib; sourceTree = "<group>"; };
+		7112979A22FBC7E900874D01 /* KDSBreakpointDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSBreakpointDownload.h; sourceTree = "<group>"; };
+		7112979B22FBC7E900874D01 /* KDSBreakpointDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSBreakpointDownload.m; sourceTree = "<group>"; };
+		7112979E22FC028200874D01 /* OTAFileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTAFileParser.h; sourceTree = "<group>"; };
+		711297A022FC028200874D01 /* CyCBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyCBManager.h; sourceTree = "<group>"; };
+		711297A122FC028200874D01 /* BootLoaderServiceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootLoaderServiceModel.m; sourceTree = "<group>"; };
+		711297A222FC028200874D01 /* CBPeripheralExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPeripheralExt.h; sourceTree = "<group>"; };
+		711297A322FC028200874D01 /* CyCBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyCBManager.m; sourceTree = "<group>"; };
+		711297A422FC028200874D01 /* BootLoaderServiceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootLoaderServiceModel.h; sourceTree = "<group>"; };
+		711297A522FC028200874D01 /* CBPeripheralExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPeripheralExt.m; sourceTree = "<group>"; };
+		711297A722FC028200874D01 /* NSString+hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+hex.m"; sourceTree = "<group>"; };
+		711297A822FC028200874D01 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		711297A922FC028200874D01 /* ResourceHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceHandler.h; sourceTree = "<group>"; };
+		711297AA22FC028200874D01 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		711297AB22FC028200874D01 /* NSString+hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+hex.h"; sourceTree = "<group>"; };
+		711297AC22FC028200874D01 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		711297AD22FC028200874D01 /* ResourceHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceHandler.m; sourceTree = "<group>"; };
+		711297AE22FC028200874D01 /* OTAFileParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTAFileParser.m; sourceTree = "<group>"; };
+		711297B623055BC000874D01 /* JGProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressView.m; sourceTree = "<group>"; };
+		711297B723055BC100874D01 /* JGProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressView.h; sourceTree = "<group>"; };
+		7118B96D221699D5001391E0 /* KDSCycleSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSCycleSelectViewController.m; sourceTree = "<group>"; };
+		7118B96E221699D5001391E0 /* KDSAgingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KDSAgingViewController.xib; sourceTree = "<group>"; };
+		7118B970221699D6001391E0 /* KDSAgingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSAgingViewController.h; sourceTree = "<group>"; };
+		7118B971221699D6001391E0 /* KDSCycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSCycleViewController.h; sourceTree = "<group>"; };
+		7118B972221699D6001391E0 /* KDSCycleSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSCycleSelectViewController.h; sourceTree = "<group>"; };
+		7118B973221699D7001391E0 /* KDSCycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSCycleViewController.m; sourceTree = "<group>"; };
+		7118B974221699D7001391E0 /* KDSAgingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSAgingViewController.m; sourceTree = "<group>"; };
+		7118B975221699D7001391E0 /* KDSCycleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KDSCycleViewController.xib; sourceTree = "<group>"; };
+		7118B97C22169FBC001391E0 /* KDSEverydayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSEverydayView.h; sourceTree = "<group>"; };
+		7118B97D22169FBC001391E0 /* KDSEverydayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSEverydayView.m; sourceTree = "<group>"; };
+		7118B97F22169FD2001391E0 /* KDSEverydayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSEverydayView.xib; sourceTree = "<group>"; };
+		7118B9812216A349001391E0 /* KDSWeekDaySelectTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSWeekDaySelectTableViewCell.h; sourceTree = "<group>"; };
+		7118B9822216A349001391E0 /* KDSWeekDaySelectTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSWeekDaySelectTableViewCell.m; sourceTree = "<group>"; };
+		7118B9832216A349001391E0 /* KDSWeekDaySelectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSWeekDaySelectTableViewCell.xib; sourceTree = "<group>"; };
+		7118B98C2216B663001391E0 /* KDSAddTempPwdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSAddTempPwdViewController.h; sourceTree = "<group>"; };
+		7118B98D2216B663001391E0 /* KDSAddTempPwdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSAddTempPwdViewController.m; sourceTree = "<group>"; };
+		7118B98E2216B663001391E0 /* KDSAddTempPwdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSAddTempPwdViewController.xib; sourceTree = "<group>"; };
+		7118B9912216BDDD001391E0 /* KDSTempPwdDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSTempPwdDetailVC.h; sourceTree = "<group>"; };
+		7118B9922216BDDD001391E0 /* KDSTempPwdDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSTempPwdDetailVC.m; sourceTree = "<group>"; };
+		7118B9932216BDDD001391E0 /* KDSTempPwdDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSTempPwdDetailVC.xib; sourceTree = "<group>"; };
+		7118B997221A3FC2001391E0 /* KDSFingerprintManaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSFingerprintManaViewController.h; sourceTree = "<group>"; };
+		7118B998221A3FC2001391E0 /* KDSFingerprintManaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSFingerprintManaViewController.m; sourceTree = "<group>"; };
+		7118B999221A3FC2001391E0 /* KDSFingerprintManaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSFingerprintManaViewController.xib; sourceTree = "<group>"; };
+		7118B99C221A411C001391E0 /* KDSFingerprintManaTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSFingerprintManaTableViewCell.h; sourceTree = "<group>"; };
+		7118B99D221A411C001391E0 /* KDSFingerprintManaTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSFingerprintManaTableViewCell.m; sourceTree = "<group>"; };
+		7118B99E221A411C001391E0 /* KDSFingerprintManaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSFingerprintManaTableViewCell.xib; sourceTree = "<group>"; };
+		7118B9B0221A7D74001391E0 /* KDSFingerprintDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSFingerprintDetailVC.h; sourceTree = "<group>"; };
+		7118B9B1221A7D74001391E0 /* KDSFingerprintDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSFingerprintDetailVC.m; sourceTree = "<group>"; };
+		7118B9B2221A7D74001391E0 /* KDSFingerprintDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSFingerprintDetailVC.xib; sourceTree = "<group>"; };
+		7118B9BB221A877D001391E0 /* KDSCardListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSCardListViewController.h; sourceTree = "<group>"; };
+		7118B9BC221A877D001391E0 /* KDSCardListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSCardListViewController.m; sourceTree = "<group>"; };
+		7118B9BD221A877D001391E0 /* KDSCardListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSCardListViewController.xib; sourceTree = "<group>"; };
+		7118B9C0221A882C001391E0 /* KDSCardListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSCardListTableViewCell.h; sourceTree = "<group>"; };
+		7118B9C1221A882C001391E0 /* KDSCardListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSCardListTableViewCell.m; sourceTree = "<group>"; };
+		7118B9C2221A882C001391E0 /* KDSCardListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSCardListTableViewCell.xib; sourceTree = "<group>"; };
+		7118B9CF221A9BC5001391E0 /* KDSCardDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSCardDetailViewController.h; sourceTree = "<group>"; };
+		7118B9D0221A9BC5001391E0 /* KDSCardDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSCardDetailViewController.m; sourceTree = "<group>"; };
+		7118B9D1221A9BC5001391E0 /* KDSCardDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSCardDetailViewController.xib; sourceTree = "<group>"; };
+		7118B9DA221AA355001391E0 /* KDSFamilyMemberlistVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSFamilyMemberlistVC.h; sourceTree = "<group>"; };
+		7118B9DB221AA355001391E0 /* KDSFamilyMemberlistVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSFamilyMemberlistVC.m; sourceTree = "<group>"; };
+		7118B9DC221AA355001391E0 /* KDSFamilyMemberlistVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSFamilyMemberlistVC.xib; sourceTree = "<group>"; };
+		7118B9DF221AA504001391E0 /* KDSFamilyMemberTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSFamilyMemberTableViewCell.h; sourceTree = "<group>"; };
+		7118B9E0221AA504001391E0 /* KDSFamilyMemberTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSFamilyMemberTableViewCell.m; sourceTree = "<group>"; };
+		7118B9E1221AA504001391E0 /* KDSFamilyMemberTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSFamilyMemberTableViewCell.xib; sourceTree = "<group>"; };
+		7118B9E4221AA6D2001391E0 /* KDSAddMemberVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSAddMemberVC.h; sourceTree = "<group>"; };
+		7118B9E5221AA6D2001391E0 /* KDSAddMemberVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSAddMemberVC.m; sourceTree = "<group>"; };
+		7118B9E6221AA6D2001391E0 /* KDSAddMemberVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSAddMemberVC.xib; sourceTree = "<group>"; };
+		7118B9E9221AAA76001391E0 /* KDSMemberDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSMemberDetailVC.h; sourceTree = "<group>"; };
+		7118B9EA221AAA76001391E0 /* KDSMemberDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSMemberDetailVC.m; sourceTree = "<group>"; };
+		7118B9EB221AAA76001391E0 /* KDSMemberDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSMemberDetailVC.xib; sourceTree = "<group>"; };
+		712355402213C43900B1A925 /* UIView+CBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CBExtension.h"; sourceTree = "<group>"; };
+		712355412213C43900B1A925 /* UIView+CBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CBExtension.m"; sourceTree = "<group>"; };
+		712355432213C44700B1A925 /* CBGroupAndStreamView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBGroupAndStreamView.h; sourceTree = "<group>"; };
+		712355442213C44700B1A925 /* CBGroupAndStreamView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBGroupAndStreamView.m; sourceTree = "<group>"; };
+		7123554622141B6100B1A925 /* KDSHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSHelpViewController.m; sourceTree = "<group>"; };
+		7123554722141B6100B1A925 /* KDSHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KDSHelpViewController.xib; sourceTree = "<group>"; };
+		7123554822141B6100B1A925 /* KDSHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSHelpViewController.h; sourceTree = "<group>"; };
+		7123554B22143B0500B1A925 /* WSDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDatePickerView.xib; sourceTree = "<group>"; };
+		7123554C22143B0500B1A925 /* WSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerView.h; sourceTree = "<group>"; };
+		7123554D22143B0500B1A925 /* WSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerView.m; sourceTree = "<group>"; };
+		7123555022143C2D00B1A925 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		7123555122143C2D00B1A925 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		7123555322143C5B00B1A925 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		7123555422143C5B00B1A925 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		71404D77223A5F850094E76A /* KDSDeviceInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSDeviceInfoViewController.m; sourceTree = "<group>"; };
+		71404D78223A5F850094E76A /* KDSDeviceInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KDSDeviceInfoViewController.xib; sourceTree = "<group>"; };
+		71404D79223A5F850094E76A /* KDSDeviceInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSDeviceInfoViewController.h; sourceTree = "<group>"; };
+		7166F3CD221175B20092EEFF /* KDSPwdListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSPwdListViewController.h; sourceTree = "<group>"; };
+		7166F3CE221175B20092EEFF /* KDSPwdListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSPwdListViewController.m; sourceTree = "<group>"; };
+		7166F3CF221175B20092EEFF /* KDSPwdListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSPwdListViewController.xib; sourceTree = "<group>"; };
+		7166F3D2221178160092EEFF /* UIView+BlockGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlockGesture.m"; sourceTree = "<group>"; };
+		7166F3D3221178160092EEFF /* UIView+BlockGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlockGesture.h"; sourceTree = "<group>"; };
+		7166F3D522117FB50092EEFF /* KDSPwsTongbu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSPwsTongbu.h; sourceTree = "<group>"; };
+		7166F3D622117FB50092EEFF /* KDSPwsTongbu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSPwsTongbu.m; sourceTree = "<group>"; };
+		7166F3D822117FC80092EEFF /* KDSPwsTongbu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSPwsTongbu.xib; sourceTree = "<group>"; };
+		7166F3DA221190520092EEFF /* KDSPwdListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSPwdListTableViewCell.h; sourceTree = "<group>"; };
+		7166F3DB221190520092EEFF /* KDSPwdListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSPwdListTableViewCell.m; sourceTree = "<group>"; };
+		7166F3DC221190520092EEFF /* KDSPwdListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSPwdListTableViewCell.xib; sourceTree = "<group>"; };
+		7166F3E92212A8620092EEFF /* KDSAddPwdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSAddPwdViewController.h; sourceTree = "<group>"; };
+		7166F3EA2212A8620092EEFF /* KDSAddPwdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSAddPwdViewController.m; sourceTree = "<group>"; };
+		7166F3EE2212A8810092EEFF /* KDSPwdEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSPwdEditViewController.h; sourceTree = "<group>"; };
+		7166F3EF2212A8810092EEFF /* KDSPwdEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSPwdEditViewController.m; sourceTree = "<group>"; };
+		7166F3F02212A8810092EEFF /* KDSPwdEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSPwdEditViewController.xib; sourceTree = "<group>"; };
+		7166F3F32212D0CC0092EEFF /* SectionChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionChooseView.h; path = xiaokaizhineng/Classes/Device/DevicePwdMange/Controller/SectionChooseView.h; sourceTree = SOURCE_ROOT; };
+		7166F3F42212D0CC0092EEFF /* SectionChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionChooseView.m; path = xiaokaizhineng/Classes/Device/DevicePwdMange/Controller/SectionChooseView.m; sourceTree = SOURCE_ROOT; };
+		71733289223000EA0095BDE2 /* WeekModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekModel.m; sourceTree = "<group>"; };
+		7173328A223000EA0095BDE2 /* WeekModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekModel.h; sourceTree = "<group>"; };
+		7173328C2232185A0095BDE2 /* KDSTemPwdlistdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSTemPwdlistdViewController.h; sourceTree = "<group>"; };
+		7173328D2232185A0095BDE2 /* KDSTemPwdlistdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSTemPwdlistdViewController.m; sourceTree = "<group>"; };
+		7173328E2232185A0095BDE2 /* KDSTemPwdlistdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSTemPwdlistdViewController.xib; sourceTree = "<group>"; };
+		717B9AD7221E972200249081 /* KDSPwdListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSPwdListModel.m; sourceTree = "<group>"; };
+		717B9AD8221E972200249081 /* KDSPwdListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSPwdListModel.h; sourceTree = "<group>"; };
+		71974B6F223FB96400E4AF8D /* KDSHttpResOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSHttpResOption.h; sourceTree = "<group>"; };
+		71974B70223FB96400E4AF8D /* KDSHttpResOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSHttpResOption.m; sourceTree = "<group>"; };
+		71974B7222410DD700E4AF8D /* KDSAddPwdSuccesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSAddPwdSuccesVC.h; sourceTree = "<group>"; };
+		71974B7322410DD800E4AF8D /* KDSAddPwdSuccesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSAddPwdSuccesVC.m; sourceTree = "<group>"; };
+		71974B7422410DD800E4AF8D /* KDSAddPwdSuccesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDSAddPwdSuccesVC.xib; sourceTree = "<group>"; };
+		71974B772243918200E4AF8D /* KDSHomepageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSHomepageVC.h; sourceTree = "<group>"; };
+		71974B782243918200E4AF8D /* KDSHomepageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSHomepageVC.m; sourceTree = "<group>"; };
+		C23588F1223289F90060C459 /* KDSSystemMsgVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSSystemMsgVC.m; sourceTree = "<group>"; };
+		C23588F2223289F90060C459 /* KDSSystemMsgVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSSystemMsgVC.h; sourceTree = "<group>"; };
+		C237F51421FAE93C00F834C7 /* KDSHttpManager+Ble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KDSHttpManager+Ble.h"; sourceTree = "<group>"; };
+		C237F51521FAE93C00F834C7 /* KDSHttpManager+Ble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KDSHttpManager+Ble.m"; sourceTree = "<group>"; };
+		C237F51721FAEA2A00F834C7 /* MyDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDevice.h; sourceTree = "<group>"; };
+		C237F51821FAEA2A00F834C7 /* MyDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDevice.m; sourceTree = "<group>"; };
+		C237F52021FAEE2F00F834C7 /* KDSDeviceNicknameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSDeviceNicknameView.h; sourceTree = "<group>"; };
+		C237F52121FAEE2F00F834C7 /* KDSDeviceNicknameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSDeviceNicknameView.m; sourceTree = "<group>"; };
+		C23DCAA1222D1EF600606780 /* KDSAddKeyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSAddKeyVC.h; sourceTree = "<group>"; };
+		C23DCAA2222D1EF600606780 /* KDSAddKeyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSAddKeyVC.m; sourceTree = "<group>"; };
+		C23DCAA42230A0BE00606780 /* KDSSecurityAuthenticationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSSecurityAuthenticationVC.h; sourceTree = "<group>"; };
+		C23DCAA52230A0BE00606780 /* KDSSecurityAuthenticationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSSecurityAuthenticationVC.m; sourceTree = "<group>"; };
+		C23DCAA722310F3800606780 /* KDSFAQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSFAQ.h; sourceTree = "<group>"; };
+		C23DCAA822310F3800606780 /* KDSFAQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSFAQ.m; sourceTree = "<group>"; };
+		C23DCAAA2231110700606780 /* KDSSysMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSSysMessage.h; sourceTree = "<group>"; };
+		C23DCAAB2231110700606780 /* KDSSysMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSSysMessage.m; sourceTree = "<group>"; };
+		C23DCAAD2232176700606780 /* KDSSysMsgCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSSysMsgCell.h; sourceTree = "<group>"; };
+		C23DCAAE2232176700606780 /* KDSSysMsgCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSSysMsgCell.m; sourceTree = "<group>"; };
+		C23DCAB022324C1000606780 /* KDSSystemMsgDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSSystemMsgDetailsVC.h; sourceTree = "<group>"; };
+		C23DCAB122324C1000606780 /* KDSSystemMsgDetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSSystemMsgDetailsVC.m; sourceTree = "<group>"; };
+		C23DCAB322324D9400606780 /* KDSSysMsgDetailsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSSysMsgDetailsCell.h; sourceTree = "<group>"; };
+		C23DCAB422324D9400606780 /* KDSSysMsgDetailsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSSysMsgDetailsCell.m; sourceTree = "<group>"; };
+		C2474E51222531A900BC6082 /* KDSAuthHelpVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSAuthHelpVC.h; sourceTree = "<group>"; };
+		C2474E52222531A900BC6082 /* KDSAuthHelpVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSAuthHelpVC.m; sourceTree = "<group>"; };
+		C2474E54222536D900BC6082 /* KDSAuthHelpCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSAuthHelpCell.h; sourceTree = "<group>"; };
+		C2474E55222536D900BC6082 /* KDSAuthHelpCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSAuthHelpCell.m; sourceTree = "<group>"; };
+		C2474E572226703100BC6082 /* KDSAlarmModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSAlarmModel.h; sourceTree = "<group>"; };
+		C2474E582226703100BC6082 /* KDSAlarmModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSAlarmModel.m; sourceTree = "<group>"; };
+		C2474E5A22278B2500BC6082 /* KDSFAQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSFAQViewController.h; sourceTree = "<group>"; };
+		C2474E5B22278B2500BC6082 /* KDSFAQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSFAQViewController.m; sourceTree = "<group>"; };
+		C2474E5D2227D99D00BC6082 /* KDSAuthMember.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSAuthMember.h; sourceTree = "<group>"; };
+		C2474E5E2227D99D00BC6082 /* KDSAuthMember.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSAuthMember.m; sourceTree = "<group>"; };
+		C2474E602229377C00BC6082 /* KDSAutoConnectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSAutoConnectViewController.h; sourceTree = "<group>"; };
+		C2474E612229377C00BC6082 /* KDSAutoConnectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSAutoConnectViewController.m; sourceTree = "<group>"; };
+		C24A2BF921F99D2B00AB98B4 /* loginCaptchaAccessory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginCaptchaAccessory.png; sourceTree = "<group>"; };
+		C24A2BFB21F9B04300AB98B4 /* server.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = server.p12; sourceTree = "<group>"; };
+		C24A2BFE21F9B20700AB98B4 /* KDSDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSDBManager.h; sourceTree = "<group>"; };
+		C24A2BFF21F9B20700AB98B4 /* KDSDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSDBManager.m; sourceTree = "<group>"; };
+		C24A2C0421F9BA9E00AB98B4 /* NSString+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+extension.h"; sourceTree = "<group>"; };
+		C24A2C0521F9BA9E00AB98B4 /* NSString+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+extension.m"; sourceTree = "<group>"; };
+		C24A2C0821F9D4F000AB98B4 /* KDSUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSUser.h; sourceTree = "<group>"; };
+		C24A2C0921F9D4F000AB98B4 /* KDSUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSUser.m; sourceTree = "<group>"; };
+		C2523A6221EC971500AC1BCD /* xiaokaizhineng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiaokaizhineng.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2523A6521EC971500AC1BCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2523A6621EC971500AC1BCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2523A6E21EC971700AC1BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2523A7121EC971700AC1BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2523A7321EC971700AC1BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2523A7421EC971700AC1BCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2523A7E21ED609E00AC1BCD /* sortedChFantinames.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = sortedChFantinames.plist; sourceTree = "<group>"; };
+		C2523A7F21ED609E00AC1BCD /* XWCountryCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCountryCodeController.h; sourceTree = "<group>"; };
+		C2523A8021ED609E00AC1BCD /* sortedChnames.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = sortedChnames.plist; sourceTree = "<group>"; };
+		C2523A8121ED609E00AC1BCD /* sortedEnames.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = sortedEnames.plist; sourceTree = "<group>"; };
+		C2523A8221ED609E00AC1BCD /* XWCountryCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCountryCodeController.m; sourceTree = "<group>"; };
+		C2523A8921ED610600AC1BCD /* KDSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSViewController.h; sourceTree = "<group>"; };
+		C2523A8A21ED610600AC1BCD /* KDSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSViewController.m; sourceTree = "<group>"; };
+		C2523A8C21ED615A00AC1BCD /* KDSNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSNavigationController.h; sourceTree = "<group>"; };
+		C2523A8D21ED615A00AC1BCD /* KDSNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSNavigationController.m; sourceTree = "<group>"; };
+		C2523A8F21ED664500AC1BCD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C2523A9021ED6CB300AC1BCD /* KDSLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSLoginVC.h; sourceTree = "<group>"; };
+		C2523A9121ED6CB300AC1BCD /* KDSLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSLoginVC.m; sourceTree = "<group>"; };
+		C2523A9521ED79C200AC1BCD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		C2523A9621ED79D600AC1BCD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		C2523A9821ED79DF00AC1BCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C2523A9A21ED79E100AC1BCD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C2523A9B21ED79E300AC1BCD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C2523AA721EDA20900AC1BCD /* KDSTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSTableViewController.h; sourceTree = "<group>"; };
+		C2523AA821EDA20900AC1BCD /* KDSTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSTableViewController.m; sourceTree = "<group>"; };
+		C2523AAB21EDA72100AC1BCD /* KDSTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSTool.h; sourceTree = "<group>"; };
+		C2523AAC21EDA72100AC1BCD /* KDSTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSTool.m; sourceTree = "<group>"; };
+		C2523AAE21EDB20700AC1BCD /* KDSSignupVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSSignupVC.h; sourceTree = "<group>"; };
+		C2523AAF21EDB20700AC1BCD /* KDSSignupVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSSignupVC.m; sourceTree = "<group>"; };
+		C2523AB421EDBA5200AC1BCD /* NSTimer+KDSBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+KDSBlock.h"; sourceTree = "<group>"; };
+		C2523AB521EDBA5200AC1BCD /* NSTimer+KDSBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+KDSBlock.m"; sourceTree = "<group>"; };
+		C2523ABB21EDC4D100AC1BCD /* KDSTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSTabBarController.h; sourceTree = "<group>"; };
+		C2523ABC21EDC4D100AC1BCD /* KDSTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSTabBarController.m; sourceTree = "<group>"; };
+		C2523AD421EDCB9800AC1BCD /* homepageUnlock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homepageUnlock.jpg; sourceTree = "<group>"; };
+		C2523AD621EDE07400AC1BCD /* homepageRightArrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homepageRightArrow.jpg; sourceTree = "<group>"; };
+		C269DD2E22237021002B3CAF /* KDSGesturePwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSGesturePwdVC.h; sourceTree = "<group>"; };
+		C269DD2F22237021002B3CAF /* KDSGesturePwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSGesturePwdVC.m; sourceTree = "<group>"; };
+		C269DD32222372C3002B3CAF /* KDSGesturePwdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSGesturePwdView.h; sourceTree = "<group>"; };
+		C269DD33222372C3002B3CAF /* KDSGesturePwdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSGesturePwdView.m; sourceTree = "<group>"; };
+		C269DD352223D10F002B3CAF /* KDSUserAgreement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSUserAgreement.h; sourceTree = "<group>"; };
+		C269DD362223D10F002B3CAF /* KDSUserAgreement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSUserAgreement.m; sourceTree = "<group>"; };
+		C269DD382223D9D0002B3CAF /* KDSUserAgreementVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSUserAgreementVC.h; sourceTree = "<group>"; };
+		C269DD392223D9D0002B3CAF /* KDSUserAgreementVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSUserAgreementVC.m; sourceTree = "<group>"; };
+		C269DD3B222409EE002B3CAF /* KDSAuthException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSAuthException.h; sourceTree = "<group>"; };
+		C269DD3C222409EE002B3CAF /* KDSAuthException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSAuthException.m; sourceTree = "<group>"; };
+		C269EB1F21FEF8CC00647896 /* CRCCODE.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CRCCODE.plist; sourceTree = "<group>"; };
+		C269EB2121FF1DF100647896 /* KDSUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSUserManager.m; sourceTree = "<group>"; };
+		C269EB2221FF1DF100647896 /* KDSUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSUserManager.h; sourceTree = "<group>"; };
+		C269EB292200401700647896 /* KDSLockPwdInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSLockPwdInfo.h; sourceTree = "<group>"; };
+		C269EB2A2200401700647896 /* KDSLockPwdInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSLockPwdInfo.m; sourceTree = "<group>"; };
+		C273638621F97E49001800AD /* loginBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginBg.png; sourceTree = "<group>"; };
+		C273638821F98067001800AD /* loginLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginLogo.png; sourceTree = "<group>"; };
+		C273638A21F98377001800AD /* loginUsernameAccessory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginUsernameAccessory.png; sourceTree = "<group>"; };
+		C273638E21F98FCD001800AD /* loginPwdRightAccessoryNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginPwdRightAccessoryNormal.png; sourceTree = "<group>"; };
+		C273639021F98FE9001800AD /* loginPwdRightAccessorySelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginPwdRightAccessorySelected.png; sourceTree = "<group>"; };
+		C2745E9C2240D9130003557F /* KDSClearGesturePwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSClearGesturePwdVC.h; sourceTree = "<group>"; };
+		C2745E9D2240D9130003557F /* KDSClearGesturePwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSClearGesturePwdVC.m; sourceTree = "<group>"; };
+		C2766ED12221304100112700 /* KDSSecuritySettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSSecuritySettingVC.h; sourceTree = "<group>"; };
+		C2766ED22221304200112700 /* KDSSecuritySettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSSecuritySettingVC.m; sourceTree = "<group>"; };
+		C279D422221A495100956280 /* KDSLockSecurityModeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSLockSecurityModeVC.h; sourceTree = "<group>"; };
+		C279D423221A495100956280 /* KDSLockSecurityModeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSLockSecurityModeVC.m; sourceTree = "<group>"; };
+		C279D42C221A917A00956280 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		C279D42D221A917A00956280 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		C279D42F221AAF4200956280 /* KDSRecordCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSRecordCell.h; sourceTree = "<group>"; };
+		C279D430221AAF4200956280 /* KDSRecordCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSRecordCell.m; sourceTree = "<group>"; };
+		C279D435221BC71200956280 /* KDSRecordHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSRecordHeaderFooterView.h; sourceTree = "<group>"; };
+		C279D436221BC71200956280 /* KDSRecordHeaderFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSRecordHeaderFooterView.m; sourceTree = "<group>"; };
+		C279D43A221C2A1500956280 /* KDSRecordDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSRecordDetailsVC.h; sourceTree = "<group>"; };
+		C279D43B221C2A1500956280 /* KDSLockInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSLockInfoVC.m; sourceTree = "<group>"; };
+		C279D43C221C2A1500956280 /* KDSLockInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSLockInfoVC.h; sourceTree = "<group>"; };
+		C279D43D221C2A1500956280 /* KDSRecordDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSRecordDetailsVC.m; sourceTree = "<group>"; };
+		C279D447221F913500956280 /* KDSMeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSMeTableViewCell.h; sourceTree = "<group>"; };
+		C279D448221F913500956280 /* KDSMeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSMeTableViewCell.m; sourceTree = "<group>"; };
+		C279D44A221F9F9600956280 /* KDSMeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSMeVC.h; sourceTree = "<group>"; };
+		C279D44B221F9F9600956280 /* KDSMeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSMeVC.m; sourceTree = "<group>"; };
+		C279D44D221FA10600956280 /* KDSHttpManager+User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KDSHttpManager+User.h"; sourceTree = "<group>"; };
+		C279D44E221FA10600956280 /* KDSHttpManager+User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KDSHttpManager+User.m"; sourceTree = "<group>"; };
+		C279D450221FC6C200956280 /* KDSPersonalProfileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSPersonalProfileVC.h; sourceTree = "<group>"; };
+		C279D451221FC6C200956280 /* KDSPersonalProfileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSPersonalProfileVC.m; sourceTree = "<group>"; };
+		C279D453221FC85500956280 /* KDSPersonalProfileCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSPersonalProfileCell.h; sourceTree = "<group>"; };
+		C279D454221FC85500956280 /* KDSPersonalProfileCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSPersonalProfileCell.m; sourceTree = "<group>"; };
+		C279D459221FDB8800956280 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C279D45B221FDB8A00956280 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C279D45C221FDB8C00956280 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C279D45D221FE5E500956280 /* KDSModifyNicknameVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSModifyNicknameVC.h; sourceTree = "<group>"; };
+		C279D45E221FE5E500956280 /* KDSModifyNicknameVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSModifyNicknameVC.m; sourceTree = "<group>"; };
+		C279D460221FEE8900956280 /* KDSModifyPwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSModifyPwdVC.h; sourceTree = "<group>"; };
+		C279D461221FEE8900956280 /* KDSModifyPwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSModifyPwdVC.m; sourceTree = "<group>"; };
+		C279D467221FFED900956280 /* KDSAboutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSAboutVC.h; sourceTree = "<group>"; };
+		C279D468221FFED900956280 /* KDSAboutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSAboutVC.m; sourceTree = "<group>"; };
+		C279D46A22200A1900956280 /* KDSSystemSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSSystemSettingVC.h; sourceTree = "<group>"; };
+		C279D46B22200A1900956280 /* KDSSystemSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSSystemSettingVC.m; sourceTree = "<group>"; };
+		C279D46F22200E3600956280 /* KDSLanguageSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSLanguageSettingVC.h; sourceTree = "<group>"; };
+		C279D47022200E3600956280 /* KDSLanguageSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSLanguageSettingVC.m; sourceTree = "<group>"; };
+		C285847F2237403400FF94A0 /* KDSUnlockAttr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSUnlockAttr.h; sourceTree = "<group>"; };
+		C28584802237403400FF94A0 /* KDSUnlockAttr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSUnlockAttr.m; sourceTree = "<group>"; };
+		C2A866872239F745005E0AF3 /* loginAgreement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginAgreement.png; sourceTree = "<group>"; };
+		C2A866892239F752005E0AF3 /* loginNoAgreement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginNoAgreement.png; sourceTree = "<group>"; };
+		C2A8668E223A2702005E0AF3 /* KDSTutorialVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSTutorialVC.h; sourceTree = "<group>"; };
+		C2A8668F223A2702005E0AF3 /* KDSTutorialVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSTutorialVC.m; sourceTree = "<group>"; };
+		C2A866C3223A54FD005E0AF3 /* tutorial62.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial62.png; sourceTree = "<group>"; };
+		C2A866C4223A54FD005E0AF3 /* tutorialX2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorialX2.png; sourceTree = "<group>"; };
+		C2A866C5223A54FD005E0AF3 /* tutorial51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial51.png; sourceTree = "<group>"; };
+		C2A866C6223A54FD005E0AF3 /* tutorialMax1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorialMax1.png; sourceTree = "<group>"; };
+		C2A866C7223A54FD005E0AF3 /* tutorialX1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorialX1.png; sourceTree = "<group>"; };
+		C2A866C8223A54FD005E0AF3 /* tutorialMax2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorialMax2.png; sourceTree = "<group>"; };
+		C2A866C9223A54FD005E0AF3 /* tutorialX3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorialX3.png; sourceTree = "<group>"; };
+		C2A866CA223A54FD005E0AF3 /* tutorial52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial52.png; sourceTree = "<group>"; };
+		C2A866CB223A54FD005E0AF3 /* tutorial61.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial61.png; sourceTree = "<group>"; };
+		C2A866CC223A54FE005E0AF3 /* tutorial63.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial63.png; sourceTree = "<group>"; };
+		C2A866CD223A54FE005E0AF3 /* tutorial53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial53.png; sourceTree = "<group>"; };
+		C2A866CE223A54FE005E0AF3 /* tutorialMax3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorialMax3.png; sourceTree = "<group>"; };
+		C2B8824B21F5BC90000A2990 /* KDSHttpManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSHttpManager.h; sourceTree = "<group>"; };
+		C2B8824C21F5BC90000A2990 /* KDSHttpManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSHttpManager.m; sourceTree = "<group>"; };
+		C2B8825521F6B80D000A2990 /* KDSHttpManager+Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KDSHttpManager+Login.h"; sourceTree = "<group>"; };
+		C2B8825621F6B80D000A2990 /* KDSHttpManager+Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KDSHttpManager+Login.m"; sourceTree = "<group>"; };
+		C2B882AE21F6FB23000A2990 /* CBPeripheral+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+Extension.h"; sourceTree = "<group>"; };
+		C2B882AF21F6FB23000A2990 /* CBPeripheral+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+Extension.m"; sourceTree = "<group>"; };
+		C2B882B121F6FBEB000A2990 /* NSData+JKEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JKEncrypt.m"; sourceTree = "<group>"; };
+		C2B882B221F6FBEC000A2990 /* NSData+JKEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JKEncrypt.h"; sourceTree = "<group>"; };
+		C2B882ED21F70476000A2990 /* KDSBleUserType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSBleUserType.m; sourceTree = "<group>"; };
+		C2B882EE21F70476000A2990 /* KDSBluetoothTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSBluetoothTool.h; sourceTree = "<group>"; };
+		C2B882EF21F70477000A2990 /* KDSBleAlarmRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSBleAlarmRecord.h; sourceTree = "<group>"; };
+		C2B882F021F70477000A2990 /* KDSBleScheduleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSBleScheduleModel.m; sourceTree = "<group>"; };
+		C2B882F121F70477000A2990 /* KDSBluetoothTool+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KDSBluetoothTool+Category.m"; sourceTree = "<group>"; };
+		C2B882F221F70477000A2990 /* KDSBleUnlockRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSBleUnlockRecord.m; sourceTree = "<group>"; };
+		C2B882F321F70477000A2990 /* KDSBleWeeklyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSBleWeeklyModel.m; sourceTree = "<group>"; };
+		C2B882F421F70477000A2990 /* KDSBluetoothTool+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KDSBluetoothTool+Category.h"; sourceTree = "<group>"; };
+		C2B882F521F70477000A2990 /* KDSBleAlarmRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSBleAlarmRecord.m; sourceTree = "<group>"; };
+		C2B882F621F70477000A2990 /* KDSBleUserType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSBleUserType.h; sourceTree = "<group>"; };
+		C2B882F721F70477000A2990 /* KDSBleWeeklyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSBleWeeklyModel.h; sourceTree = "<group>"; };
+		C2B882F821F70477000A2990 /* KDSBleYMDModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSBleYMDModel.m; sourceTree = "<group>"; };
+		C2B882F921F70477000A2990 /* KDSBleYMDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSBleYMDModel.h; sourceTree = "<group>"; };
+		C2B882FA21F70477000A2990 /* KDSBleOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSBleOptions.h; sourceTree = "<group>"; };
+		C2B882FB21F70477000A2990 /* KDSBleUnlockRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSBleUnlockRecord.h; sourceTree = "<group>"; };
+		C2B882FC21F70478000A2990 /* KDSBleTunnelTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSBleTunnelTask.m; sourceTree = "<group>"; };
+		C2B882FD21F70478000A2990 /* KDSBleTunnelTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSBleTunnelTask.h; sourceTree = "<group>"; };
+		C2B882FE21F70478000A2990 /* KDSBleScheduleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSBleScheduleModel.h; sourceTree = "<group>"; };
+		C2B882FF21F70478000A2990 /* KDSBluetoothTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSBluetoothTool.m; sourceTree = "<group>"; };
+		C2B8830B21F71869000A2990 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C2B8830C21F71869000A2990 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		C2B8830D21F71869000A2990 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C2B8830E21F71869000A2990 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		C2B8830F21F71869000A2990 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		C2CC969A221266FD00F5B5F0 /* KDSDeviceModelListTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSDeviceModelListTableVC.h; sourceTree = "<group>"; };
+		C2CC969B221266FD00F5B5F0 /* KDSDeviceModelListTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSDeviceModelListTableVC.m; sourceTree = "<group>"; };
+		C2CC96A02212933C00F5B5F0 /* KDSDeviceModelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSDeviceModelCell.h; sourceTree = "<group>"; };
+		C2CC96A12212933C00F5B5F0 /* KDSDeviceModelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSDeviceModelCell.m; sourceTree = "<group>"; };
+		C2CC96A32212A39400F5B5F0 /* KDSBleSearchTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSBleSearchTableVC.h; sourceTree = "<group>"; };
+		C2CC96A42212A39400F5B5F0 /* KDSBleSearchTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSBleSearchTableVC.m; sourceTree = "<group>"; };
+		C2CC96A62212AF4000F5B5F0 /* KDSBleInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSBleInfoCell.h; sourceTree = "<group>"; };
+		C2CC96A72212AF4000F5B5F0 /* KDSBleInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSBleInfoCell.m; sourceTree = "<group>"; };
+		C2CC96AA2212C7E700F5B5F0 /* KDSBleBindVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSBleBindVC.h; sourceTree = "<group>"; };
+		C2CC96AB2212C7E700F5B5F0 /* KDSBleBindVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSBleBindVC.m; sourceTree = "<group>"; };
+		C2CC96B12214046700F5B5F0 /* KDSDeviceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSDeviceVC.m; sourceTree = "<group>"; };
+		C2CC96B32214046700F5B5F0 /* KDSDeviceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSDeviceVC.h; sourceTree = "<group>"; };
+		C2CC96B42214046700F5B5F0 /* KDSDeviceVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KDSDeviceVC.xib; sourceTree = "<group>"; };
+		C2CC96B62214046700F5B5F0 /* KDSDeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSDeviceTableViewCell.h; sourceTree = "<group>"; };
+		C2CC96B72214046700F5B5F0 /* KDSDeviceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KDSDeviceTableViewCell.xib; sourceTree = "<group>"; };
+		C2CC96B82214046700F5B5F0 /* KDSDeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSDeviceTableViewCell.m; sourceTree = "<group>"; };
+		C2CC96C02214F46F00F5B5F0 /* KDSLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSLock.h; sourceTree = "<group>"; };
+		C2CC96C12214F46F00F5B5F0 /* KDSLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSLock.m; sourceTree = "<group>"; };
+		C2CC96C32215060200F5B5F0 /* KDSLockMoreSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSLockMoreSettingVC.h; sourceTree = "<group>"; };
+		C2CC96C42215060200F5B5F0 /* KDSLockMoreSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSLockMoreSettingVC.m; sourceTree = "<group>"; };
+		C2CC96C622150E1C00F5B5F0 /* KDSLockMoreSettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSLockMoreSettingCell.h; sourceTree = "<group>"; };
+		C2CC96C722150E1C00F5B5F0 /* KDSLockMoreSettingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSLockMoreSettingCell.m; sourceTree = "<group>"; };
+		C2CC96CA221533C000F5B5F0 /* KDSBleLockInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSBleLockInfoModel.h; sourceTree = "<group>"; };
+		C2CC96CB221533C000F5B5F0 /* KDSBleLockInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSBleLockInfoModel.m; sourceTree = "<group>"; };
+		C2CC96CE2215875900F5B5F0 /* KDSLockParamVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSLockParamVC.h; sourceTree = "<group>"; };
+		C2CC96CF2215875900F5B5F0 /* KDSLockParamVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSLockParamVC.m; sourceTree = "<group>"; };
+		C2CC96D1221640F100F5B5F0 /* KDSLockPwdManageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSLockPwdManageVC.h; sourceTree = "<group>"; };
+		C2CC96D2221640F100F5B5F0 /* KDSLockPwdManageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSLockPwdManageVC.m; sourceTree = "<group>"; };
+		C2CC96D52216465D00F5B5F0 /* UIEdgeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIEdgeLabel.h; sourceTree = "<group>"; };
+		C2CC96D62216465D00F5B5F0 /* UIEdgeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIEdgeLabel.m; sourceTree = "<group>"; };
+		C2CC96D822164D2000F5B5F0 /* KDSMoreSettingAlterMgrPwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSMoreSettingAlterMgrPwdVC.h; sourceTree = "<group>"; };
+		C2CC96D922164D2000F5B5F0 /* KDSMoreSettingAlterMgrPwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSMoreSettingAlterMgrPwdVC.m; sourceTree = "<group>"; };
+		C2CC96DB221656C500F5B5F0 /* loginPwdLeftAccessory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginPwdLeftAccessory.png; sourceTree = "<group>"; };
+		C2CC96E62217E2E200F5B5F0 /* KDSAMModeSpecificationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSAMModeSpecificationVC.h; sourceTree = "<group>"; };
+		C2CC96E72217E2E200F5B5F0 /* KDSAMModeSpecificationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSAMModeSpecificationVC.m; sourceTree = "<group>"; };
+		C2CC96E92217EE8700F5B5F0 /* KDSLockLanguageAlterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSLockLanguageAlterVC.h; sourceTree = "<group>"; };
+		C2CC96EA2217EE8700F5B5F0 /* KDSLockLanguageAlterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSLockLanguageAlterVC.m; sourceTree = "<group>"; };
+		C2CC96EC221804D100F5B5F0 /* KDSLockAlterTimeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDSLockAlterTimeVC.h; sourceTree = "<group>"; };
+		C2CC96ED221804D100F5B5F0 /* KDSLockAlterTimeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDSLockAlterTimeVC.m; sourceTree = "<group>"; };
+		E34BF22254452447D7182785 /* Pods_xiaokaizhineng.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xiaokaizhineng.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EBEC7222718AED00A17A7A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E6EBEC7422718B0300A17A7A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E6EBEC7622718B0F00A17A7A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		E6EBEC7822718B1900A17A7A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FAC3AB297EEE73EC8D3251BB /* Pods-xiaokaizhineng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaokaizhineng.release.xcconfig"; path = "Pods/Target Support Files/Pods-xiaokaizhineng/Pods-xiaokaizhineng.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2523A5F21EC971500AC1BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EBEC7922718B1900A17A7A /* libc++.tbd in Frameworks */,
+				E6EBEC7722718B0F00A17A7A /* libsqlite3.0.tbd in Frameworks */,
+				E6EBEC7522718B0300A17A7A /* libz.tbd in Frameworks */,
+				E6EBEC7322718AED00A17A7A /* SystemConfiguration.framework in Frameworks */,
+				C8639AF9B54655FB10226CBB /* Pods_xiaokaizhineng.framework in Frameworks */,
+				E18ABB0E57B3066121577734 /* Pods_xiaokaizhineng.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E7A334E22F01673001DE2D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E7A335022F01673001DE2D6 /* KDSCodingObject.h */,
+				2E7A334F22F01673001DE2D6 /* KDSCodingObject.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B54442E3815AD95A7BBAD51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				247A347ECA4AE6B6414B6337 /* Pods-xiaokaizhineng.debug.xcconfig */,
+				FAC3AB297EEE73EC8D3251BB /* Pods-xiaokaizhineng.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7112979D22FC028200874D01 /* Psoc6OTA */ = {
+			isa = PBXGroup;
+			children = (
+				7112979E22FC028200874D01 /* OTAFileParser.h */,
+				711297AE22FC028200874D01 /* OTAFileParser.m */,
+				7112979F22FC028200874D01 /* CBManager */,
+				711297A622FC028200874D01 /* UtilClasses */,
+			);
+			path = Psoc6OTA;
+			sourceTree = "<group>";
+		};
+		7112979F22FC028200874D01 /* CBManager */ = {
+			isa = PBXGroup;
+			children = (
+				711297A022FC028200874D01 /* CyCBManager.h */,
+				711297A322FC028200874D01 /* CyCBManager.m */,
+				711297A422FC028200874D01 /* BootLoaderServiceModel.h */,
+				711297A122FC028200874D01 /* BootLoaderServiceModel.m */,
+				711297A222FC028200874D01 /* CBPeripheralExt.h */,
+				711297A522FC028200874D01 /* CBPeripheralExt.m */,
+			);
+			path = CBManager;
+			sourceTree = "<group>";
+		};
+		711297A622FC028200874D01 /* UtilClasses */ = {
+			isa = PBXGroup;
+			children = (
+				711297A722FC028200874D01 /* NSString+hex.m */,
+				711297A822FC028200874D01 /* Utilities.h */,
+				711297A922FC028200874D01 /* ResourceHandler.h */,
+				711297AA22FC028200874D01 /* Constants.h */,
+				711297AB22FC028200874D01 /* NSString+hex.h */,
+				711297AC22FC028200874D01 /* Utilities.m */,
+				711297AD22FC028200874D01 /* ResourceHandler.m */,
+			);
+			path = UtilClasses;
+			sourceTree = "<group>";
+		};
+		7118B9882216B5C1001391E0 /* TemPwd */ = {
+			isa = PBXGroup;
+			children = (
+				7173328C2232185A0095BDE2 /* KDSTemPwdlistdViewController.h */,
+				7173328D2232185A0095BDE2 /* KDSTemPwdlistdViewController.m */,
+				7173328E2232185A0095BDE2 /* KDSTemPwdlistdViewController.xib */,
+				7118B98C2216B663001391E0 /* KDSAddTempPwdViewController.h */,
+				7118B98D2216B663001391E0 /* KDSAddTempPwdViewController.m */,
+				7118B98E2216B663001391E0 /* KDSAddTempPwdViewController.xib */,
+				7118B9912216BDDD001391E0 /* KDSTempPwdDetailVC.h */,
+				7118B9922216BDDD001391E0 /* KDSTempPwdDetailVC.m */,
+				7118B9932216BDDD001391E0 /* KDSTempPwdDetailVC.xib */,
+			);
+			name = TemPwd;
+			sourceTree = "<group>";
+		};
+		7118B996221A3E52001391E0 /* Card&Fingerprint */ = {
+			isa = PBXGroup;
+			children = (
+				7118B997221A3FC2001391E0 /* KDSFingerprintManaViewController.h */,
+				7118B998221A3FC2001391E0 /* KDSFingerprintManaViewController.m */,
+				7118B999221A3FC2001391E0 /* KDSFingerprintManaViewController.xib */,
+				7118B9B0221A7D74001391E0 /* KDSFingerprintDetailVC.h */,
+				7118B9B1221A7D74001391E0 /* KDSFingerprintDetailVC.m */,
+				7118B9B2221A7D74001391E0 /* KDSFingerprintDetailVC.xib */,
+				7118B9BB221A877D001391E0 /* KDSCardListViewController.h */,
+				7118B9BC221A877D001391E0 /* KDSCardListViewController.m */,
+				7118B9BD221A877D001391E0 /* KDSCardListViewController.xib */,
+				7118B9CF221A9BC5001391E0 /* KDSCardDetailViewController.h */,
+				7118B9D0221A9BC5001391E0 /* KDSCardDetailViewController.m */,
+				7118B9D1221A9BC5001391E0 /* KDSCardDetailViewController.xib */,
+				C23DCAA1222D1EF600606780 /* KDSAddKeyVC.h */,
+				C23DCAA2222D1EF600606780 /* KDSAddKeyVC.m */,
+			);
+			name = "Card&Fingerprint";
+			sourceTree = "<group>";
+		};
+		7118B9D9221AA2CB001391E0 /* FamilyMember */ = {
+			isa = PBXGroup;
+			children = (
+				7118B9DA221AA355001391E0 /* KDSFamilyMemberlistVC.h */,
+				7118B9DB221AA355001391E0 /* KDSFamilyMemberlistVC.m */,
+				7118B9DC221AA355001391E0 /* KDSFamilyMemberlistVC.xib */,
+				7118B9E4221AA6D2001391E0 /* KDSAddMemberVC.h */,
+				7118B9E5221AA6D2001391E0 /* KDSAddMemberVC.m */,
+				7118B9E6221AA6D2001391E0 /* KDSAddMemberVC.xib */,
+				7118B9E9221AAA76001391E0 /* KDSMemberDetailVC.h */,
+				7118B9EA221AAA76001391E0 /* KDSMemberDetailVC.m */,
+				7118B9EB221AAA76001391E0 /* KDSMemberDetailVC.xib */,
+			);
+			name = FamilyMember;
+			sourceTree = "<group>";
+		};
+		711EB0DF21F9DD050079BD61 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C2523ABE21EDC6E600AC1BCD /* TabBarController */,
+				C2523A7B21EC9AEE00AC1BCD /* Login */,
+				C2523ABF21EDC70100AC1BCD /* Homepage */,
+				C2523ACC21EDC99000AC1BCD /* Device */,
+				C2523AD021EDC9B900AC1BCD /* Me */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		711EB0E021F9DD9D0079BD61 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2CC969A221266FD00F5B5F0 /* KDSDeviceModelListTableVC.h */,
+				C2CC969B221266FD00F5B5F0 /* KDSDeviceModelListTableVC.m */,
+				C2CC96A92212C77C00F5B5F0 /* Search&BindBle */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		711EB0E121F9DDAE0079BD61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2CC96A02212933C00F5B5F0 /* KDSDeviceModelCell.h */,
+				C2CC96A12212933C00F5B5F0 /* KDSDeviceModelCell.m */,
+				C2CC96A62212AF4000F5B5F0 /* KDSBleInfoCell.h */,
+				C2CC96A72212AF4000F5B5F0 /* KDSBleInfoCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7166F3C9221173E50092EEFF /* DevicePwdMange */ = {
+			isa = PBXGroup;
+			children = (
+				7166F3CA2211740A0092EEFF /* Controller */,
+				717B9AD3221E969700249081 /* Model */,
+				7166F3CB221174170092EEFF /* View */,
+			);
+			path = DevicePwdMange;
+			sourceTree = "<group>";
+		};
+		7166F3CA2211740A0092EEFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7166F3CD221175B20092EEFF /* KDSPwdListViewController.h */,
+				7166F3CE221175B20092EEFF /* KDSPwdListViewController.m */,
+				7166F3CF221175B20092EEFF /* KDSPwdListViewController.xib */,
+				7166F3E92212A8620092EEFF /* KDSAddPwdViewController.h */,
+				7166F3EA2212A8620092EEFF /* KDSAddPwdViewController.m */,
+				7166F3EE2212A8810092EEFF /* KDSPwdEditViewController.h */,
+				7166F3EF2212A8810092EEFF /* KDSPwdEditViewController.m */,
+				7166F3F02212A8810092EEFF /* KDSPwdEditViewController.xib */,
+				7118B970221699D6001391E0 /* KDSAgingViewController.h */,
+				7118B974221699D7001391E0 /* KDSAgingViewController.m */,
+				7118B96E221699D5001391E0 /* KDSAgingViewController.xib */,
+				7118B971221699D6001391E0 /* KDSCycleViewController.h */,
+				7118B973221699D7001391E0 /* KDSCycleViewController.m */,
+				7118B975221699D7001391E0 /* KDSCycleViewController.xib */,
+				7118B972221699D6001391E0 /* KDSCycleSelectViewController.h */,
+				7118B96D221699D5001391E0 /* KDSCycleSelectViewController.m */,
+				71974B7222410DD700E4AF8D /* KDSAddPwdSuccesVC.h */,
+				71974B7322410DD800E4AF8D /* KDSAddPwdSuccesVC.m */,
+				71974B7422410DD800E4AF8D /* KDSAddPwdSuccesVC.xib */,
+				C2CC96E3221699B600F5B5F0 /* MoreSetting */,
+				7118B9882216B5C1001391E0 /* TemPwd */,
+				7118B996221A3E52001391E0 /* Card&Fingerprint */,
+				7118B9D9221AA2CB001391E0 /* FamilyMember */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7166F3CB221174170092EEFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7166F3D522117FB50092EEFF /* KDSPwsTongbu.h */,
+				7166F3D622117FB50092EEFF /* KDSPwsTongbu.m */,
+				7166F3D822117FC80092EEFF /* KDSPwsTongbu.xib */,
+				7166F3DA221190520092EEFF /* KDSPwdListTableViewCell.h */,
+				7166F3DB221190520092EEFF /* KDSPwdListTableViewCell.m */,
+				7166F3DC221190520092EEFF /* KDSPwdListTableViewCell.xib */,
+				7166F3F32212D0CC0092EEFF /* SectionChooseView.h */,
+				7166F3F42212D0CC0092EEFF /* SectionChooseView.m */,
+				712355432213C44700B1A925 /* CBGroupAndStreamView.h */,
+				712355442213C44700B1A925 /* CBGroupAndStreamView.m */,
+				7123554C22143B0500B1A925 /* WSDatePickerView.h */,
+				7123554D22143B0500B1A925 /* WSDatePickerView.m */,
+				7123554B22143B0500B1A925 /* WSDatePickerView.xib */,
+				C2CC96C622150E1C00F5B5F0 /* KDSLockMoreSettingCell.h */,
+				C2CC96C722150E1C00F5B5F0 /* KDSLockMoreSettingCell.m */,
+				7118B97C22169FBC001391E0 /* KDSEverydayView.h */,
+				7118B97D22169FBC001391E0 /* KDSEverydayView.m */,
+				7118B97F22169FD2001391E0 /* KDSEverydayView.xib */,
+				7118B9812216A349001391E0 /* KDSWeekDaySelectTableViewCell.h */,
+				7118B9822216A349001391E0 /* KDSWeekDaySelectTableViewCell.m */,
+				7118B9832216A349001391E0 /* KDSWeekDaySelectTableViewCell.xib */,
+				7118B99C221A411C001391E0 /* KDSFingerprintManaTableViewCell.h */,
+				7118B99D221A411C001391E0 /* KDSFingerprintManaTableViewCell.m */,
+				7118B99E221A411C001391E0 /* KDSFingerprintManaTableViewCell.xib */,
+				7118B9C0221A882C001391E0 /* KDSCardListTableViewCell.h */,
+				7118B9C1221A882C001391E0 /* KDSCardListTableViewCell.m */,
+				7118B9C2221A882C001391E0 /* KDSCardListTableViewCell.xib */,
+				7118B9DF221AA504001391E0 /* KDSFamilyMemberTableViewCell.h */,
+				7118B9E0221AA504001391E0 /* KDSFamilyMemberTableViewCell.m */,
+				7118B9E1221AA504001391E0 /* KDSFamilyMemberTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		717B9AD3221E969700249081 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7173328A223000EA0095BDE2 /* WeekModel.h */,
+				71733289223000EA0095BDE2 /* WeekModel.m */,
+			);
+			name = Model;
+			path = xiaokaizhineng/Classes/Device/DevicePwdMange/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		799094D10E52578EF93994E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EBEC7822718B1900A17A7A /* libc++.tbd */,
+				E6EBEC7622718B0F00A17A7A /* libsqlite3.0.tbd */,
+				E6EBEC7422718B0300A17A7A /* libz.tbd */,
+				E6EBEC7222718AED00A17A7A /* SystemConfiguration.framework */,
+				E34BF22254452447D7182785 /* Pods_xiaokaizhineng.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C237F51A21FAEA2E00F834C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				717B9AD8221E972200249081 /* KDSPwdListModel.h */,
+				717B9AD7221E972200249081 /* KDSPwdListModel.m */,
+				C24A2C0821F9D4F000AB98B4 /* KDSUser.h */,
+				C24A2C0921F9D4F000AB98B4 /* KDSUser.m */,
+				C237F51721FAEA2A00F834C7 /* MyDevice.h */,
+				C237F51821FAEA2A00F834C7 /* MyDevice.m */,
+				C269EB292200401700647896 /* KDSLockPwdInfo.h */,
+				C269EB2A2200401700647896 /* KDSLockPwdInfo.m */,
+				C279D42C221A917A00956280 /* News.h */,
+				C279D42D221A917A00956280 /* News.m */,
+				2E7A335222F02378001DE2D6 /* KDSOperationalRecord.h */,
+				2E7A335322F02378001DE2D6 /* KDSOperationalRecord.m */,
+				C269DD352223D10F002B3CAF /* KDSUserAgreement.h */,
+				C269DD362223D10F002B3CAF /* KDSUserAgreement.m */,
+				C2474E572226703100BC6082 /* KDSAlarmModel.h */,
+				C2474E582226703100BC6082 /* KDSAlarmModel.m */,
+				C2474E5D2227D99D00BC6082 /* KDSAuthMember.h */,
+				C2474E5E2227D99D00BC6082 /* KDSAuthMember.m */,
+				C23DCAA722310F3800606780 /* KDSFAQ.h */,
+				C23DCAA822310F3800606780 /* KDSFAQ.m */,
+				C23DCAAA2231110700606780 /* KDSSysMessage.h */,
+				C23DCAAB2231110700606780 /* KDSSysMessage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C237F51C21FAED5F00F834C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C237F52021FAEE2F00F834C7 /* KDSDeviceNicknameView.h */,
+				C237F52121FAEE2F00F834C7 /* KDSDeviceNicknameView.m */,
+				C279D42F221AAF4200956280 /* KDSRecordCell.h */,
+				C279D430221AAF4200956280 /* KDSRecordCell.m */,
+				C279D435221BC71200956280 /* KDSRecordHeaderFooterView.h */,
+				C279D436221BC71200956280 /* KDSRecordHeaderFooterView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C24A2BFD21F9B1DD00AB98B4 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				C269DD3B222409EE002B3CAF /* KDSAuthException.h */,
+				C269DD3C222409EE002B3CAF /* KDSAuthException.m */,
+				C285847F2237403400FF94A0 /* KDSUnlockAttr.h */,
+				C28584802237403400FF94A0 /* KDSUnlockAttr.m */,
+				C24A2BFE21F9B20700AB98B4 /* KDSDBManager.h */,
+				C24A2BFF21F9B20700AB98B4 /* KDSDBManager.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		C2523A5921EC971500AC1BCD = {
+			isa = PBXGroup;
+			children = (
+				C2523A6421EC971500AC1BCD /* xiaokaizhineng */,
+				C2523A6321EC971500AC1BCD /* Products */,
+				6B54442E3815AD95A7BBAD51 /* Pods */,
+				799094D10E52578EF93994E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2523A6321EC971500AC1BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2523A6221EC971500AC1BCD /* xiaokaizhineng.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2523A6421EC971500AC1BCD /* xiaokaizhineng */ = {
+			isa = PBXGroup;
+			children = (
+				C2523A6521EC971500AC1BCD /* AppDelegate.h */,
+				C2523A6621EC971500AC1BCD /* AppDelegate.m */,
+				C23DCAA42230A0BE00606780 /* KDSSecurityAuthenticationVC.h */,
+				C23DCAA52230A0BE00606780 /* KDSSecurityAuthenticationVC.m */,
+				C2B8830921F7182D000A2990 /* ThirdLib */,
+				C2523AB321EDBA2B00AC1BCD /* Category */,
+				C2523A8721ED60E800AC1BCD /* Public */,
+				C2B8824921F5BBDE000A2990 /* Tool */,
+				711EB0DF21F9DD050079BD61 /* Classes */,
+				C2523A9D21ED7AE000AC1BCD /* Resource */,
+				C2523A6E21EC971700AC1BCD /* Assets.xcassets */,
+				C2523A7021EC971700AC1BCD /* LaunchScreen.storyboard */,
+				C2523A7C21EC9BC300AC1BCD /* Supporting Files */,
+			);
+			path = xiaokaizhineng;
+			sourceTree = "<group>";
+		};
+		C2523A7B21EC9AEE00AC1BCD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C2523A7D21ED609E00AC1BCD /* XWCountryCode */,
+				C2A8668E223A2702005E0AF3 /* KDSTutorialVC.h */,
+				C2A8668F223A2702005E0AF3 /* KDSTutorialVC.m */,
+				C2523A9021ED6CB300AC1BCD /* KDSLoginVC.h */,
+				C2523A9121ED6CB300AC1BCD /* KDSLoginVC.m */,
+				C2523AAE21EDB20700AC1BCD /* KDSSignupVC.h */,
+				C2523AAF21EDB20700AC1BCD /* KDSSignupVC.m */,
+				C269EB1F21FEF8CC00647896 /* CRCCODE.plist */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C2523A7C21EC9BC300AC1BCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2523A7321EC971700AC1BCD /* Info.plist */,
+				C2523A7421EC971700AC1BCD /* main.m */,
+				C2523A8F21ED664500AC1BCD /* PrefixHeader.pch */,
+				C279D45A221FDB8800956280 /* InfoPlist.strings */,
+				C2523A9921ED79DF00AC1BCD /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2523A7D21ED609E00AC1BCD /* XWCountryCode */ = {
+			isa = PBXGroup;
+			children = (
+				C2523A7E21ED609E00AC1BCD /* sortedChFantinames.plist */,
+				C2523A8021ED609E00AC1BCD /* sortedChnames.plist */,
+				C2523A8121ED609E00AC1BCD /* sortedEnames.plist */,
+				C2523A7F21ED609E00AC1BCD /* XWCountryCodeController.h */,
+				C2523A8221ED609E00AC1BCD /* XWCountryCodeController.m */,
+			);
+			path = XWCountryCode;
+			sourceTree = "<group>";
+		};
+		C2523A8721ED60E800AC1BCD /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C2523A8821ED60EF00AC1BCD /* Controller */,
+				C2CC96D42216463700F5B5F0 /* View */,
+				2E7A334E22F01673001DE2D6 /* Model */,
+				C2523AAB21EDA72100AC1BCD /* KDSTool.h */,
+				C2523AAC21EDA72100AC1BCD /* KDSTool.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		C2523A8821ED60EF00AC1BCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2523A8921ED610600AC1BCD /* KDSViewController.h */,
+				C2523A8A21ED610600AC1BCD /* KDSViewController.m */,
+				C2474E602229377C00BC6082 /* KDSAutoConnectViewController.h */,
+				C2474E612229377C00BC6082 /* KDSAutoConnectViewController.m */,
+				C2523A8C21ED615A00AC1BCD /* KDSNavigationController.h */,
+				C2523A8D21ED615A00AC1BCD /* KDSNavigationController.m */,
+				C2523AA721EDA20900AC1BCD /* KDSTableViewController.h */,
+				C2523AA821EDA20900AC1BCD /* KDSTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2523A9D21ED7AE000AC1BCD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C24A2BFB21F9B04300AB98B4 /* server.p12 */,
+				C2523AC321EDC84000AC1BCD /* TabBar */,
+				C2523A9E21ED7AF200AC1BCD /* Login */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C2523A9E21ED7AF200AC1BCD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C273638621F97E49001800AD /* loginBg.png */,
+				C273638821F98067001800AD /* loginLogo.png */,
+				C273638A21F98377001800AD /* loginUsernameAccessory.png */,
+				C2CC96DB221656C500F5B5F0 /* loginPwdLeftAccessory.png */,
+				C273638E21F98FCD001800AD /* loginPwdRightAccessoryNormal.png */,
+				C273639021F98FE9001800AD /* loginPwdRightAccessorySelected.png */,
+				C24A2BF921F99D2B00AB98B4 /* loginCaptchaAccessory.png */,
+				C2A866872239F745005E0AF3 /* loginAgreement.png */,
+				C2A866892239F752005E0AF3 /* loginNoAgreement.png */,
+				C2A866C5223A54FD005E0AF3 /* tutorial51.png */,
+				C2A866CA223A54FD005E0AF3 /* tutorial52.png */,
+				C2A866CD223A54FE005E0AF3 /* tutorial53.png */,
+				C2A866CB223A54FD005E0AF3 /* tutorial61.png */,
+				C2A866C3223A54FD005E0AF3 /* tutorial62.png */,
+				C2A866CC223A54FE005E0AF3 /* tutorial63.png */,
+				C2A866C6223A54FD005E0AF3 /* tutorialMax1.png */,
+				C2A866C8223A54FD005E0AF3 /* tutorialMax2.png */,
+				C2A866CE223A54FE005E0AF3 /* tutorialMax3.png */,
+				C2A866C7223A54FD005E0AF3 /* tutorialX1.png */,
+				C2A866C4223A54FD005E0AF3 /* tutorialX2.png */,
+				C2A866C9223A54FD005E0AF3 /* tutorialX3.png */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C2523AB321EDBA2B00AC1BCD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7123555322143C5B00B1A925 /* UIView+Extension.h */,
+				7123555422143C5B00B1A925 /* UIView+Extension.m */,
+				7123555022143C2D00B1A925 /* NSDate+Extension.h */,
+				7123555122143C2D00B1A925 /* NSDate+Extension.m */,
+				712355402213C43900B1A925 /* UIView+CBExtension.h */,
+				712355412213C43900B1A925 /* UIView+CBExtension.m */,
+				7166F3D3221178160092EEFF /* UIView+BlockGesture.h */,
+				7166F3D2221178160092EEFF /* UIView+BlockGesture.m */,
+				C2523AB421EDBA5200AC1BCD /* NSTimer+KDSBlock.h */,
+				C2523AB521EDBA5200AC1BCD /* NSTimer+KDSBlock.m */,
+				C2B882AE21F6FB23000A2990 /* CBPeripheral+Extension.h */,
+				C2B882AF21F6FB23000A2990 /* CBPeripheral+Extension.m */,
+				C2B882B221F6FBEC000A2990 /* NSData+JKEncrypt.h */,
+				C2B882B121F6FBEB000A2990 /* NSData+JKEncrypt.m */,
+				C24A2C0421F9BA9E00AB98B4 /* NSString+extension.h */,
+				C24A2C0521F9BA9E00AB98B4 /* NSString+extension.m */,
+				711297B723055BC100874D01 /* JGProgressView.h */,
+				711297B623055BC000874D01 /* JGProgressView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C2523ABE21EDC6E600AC1BCD /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C2523ABB21EDC4D100AC1BCD /* KDSTabBarController.h */,
+				C2523ABC21EDC4D100AC1BCD /* KDSTabBarController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		C2523ABF21EDC70100AC1BCD /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				C2CC96BF2214F29800F5B5F0 /* Model */,
+				C237F51C21FAED5F00F834C7 /* View */,
+				C279D438221C2A1500956280 /* Controller */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		C2523AC321EDC84000AC1BCD /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C2523AD421EDCB9800AC1BCD /* homepageUnlock.jpg */,
+				C2523AD621EDE07400AC1BCD /* homepageRightArrow.jpg */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		C2523ACC21EDC99000AC1BCD /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC8B9D2236A7E900CD8EFB /* OTA */,
+				7166F3C9221173E50092EEFF /* DevicePwdMange */,
+				C2CC96AD2214046700F5B5F0 /* DeviceHome */,
+				711EB0E021F9DD9D0079BD61 /* Controller */,
+				711EB0E121F9DDAE0079BD61 /* View */,
+				C2CC969F2212917F00F5B5F0 /* Model */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		C2523AD021EDC9B900AC1BCD /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				C279D446221F911200956280 /* View */,
+				C279D445221F910100956280 /* Controller */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		C269DD3122237055002B3CAF /* SecuritySettings */ = {
+			isa = PBXGroup;
+			children = (
+				C2766ED12221304100112700 /* KDSSecuritySettingVC.h */,
+				C2766ED22221304200112700 /* KDSSecuritySettingVC.m */,
+				C269DD2E22237021002B3CAF /* KDSGesturePwdVC.h */,
+				C269DD2F22237021002B3CAF /* KDSGesturePwdVC.m */,
+				C2745E9C2240D9130003557F /* KDSClearGesturePwdVC.h */,
+				C2745E9D2240D9130003557F /* KDSClearGesturePwdVC.m */,
+			);
+			name = SecuritySettings;
+			sourceTree = "<group>";
+		};
+		C279D438221C2A1500956280 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71974B772243918200E4AF8D /* KDSHomepageVC.h */,
+				71974B782243918200E4AF8D /* KDSHomepageVC.m */,
+				C279D43C221C2A1500956280 /* KDSLockInfoVC.h */,
+				C279D43B221C2A1500956280 /* KDSLockInfoVC.m */,
+				C279D43A221C2A1500956280 /* KDSRecordDetailsVC.h */,
+				C279D43D221C2A1500956280 /* KDSRecordDetailsVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C279D445221F910100956280 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C279D44A221F9F9600956280 /* KDSMeVC.h */,
+				C279D44B221F9F9600956280 /* KDSMeVC.m */,
+				C279D466221FFE1100956280 /* PersonalProfile */,
+				C23588F2223289F90060C459 /* KDSSystemMsgVC.h */,
+				C23588F1223289F90060C459 /* KDSSystemMsgVC.m */,
+				C23DCAB022324C1000606780 /* KDSSystemMsgDetailsVC.h */,
+				C23DCAB122324C1000606780 /* KDSSystemMsgDetailsVC.m */,
+				C269DD3122237055002B3CAF /* SecuritySettings */,
+				C2474E5A22278B2500BC6082 /* KDSFAQViewController.h */,
+				C2474E5B22278B2500BC6082 /* KDSFAQViewController.m */,
+				C279D46E22200CF300956280 /* SystemSettings */,
+				C279D467221FFED900956280 /* KDSAboutVC.h */,
+				C279D468221FFED900956280 /* KDSAboutVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C279D446221F911200956280 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C279D447221F913500956280 /* KDSMeTableViewCell.h */,
+				C279D448221F913500956280 /* KDSMeTableViewCell.m */,
+				C279D453221FC85500956280 /* KDSPersonalProfileCell.h */,
+				C279D454221FC85500956280 /* KDSPersonalProfileCell.m */,
+				C269DD32222372C3002B3CAF /* KDSGesturePwdView.h */,
+				C269DD33222372C3002B3CAF /* KDSGesturePwdView.m */,
+				C2474E54222536D900BC6082 /* KDSAuthHelpCell.h */,
+				C2474E55222536D900BC6082 /* KDSAuthHelpCell.m */,
+				C23DCAAD2232176700606780 /* KDSSysMsgCell.h */,
+				C23DCAAE2232176700606780 /* KDSSysMsgCell.m */,
+				C23DCAB322324D9400606780 /* KDSSysMsgDetailsCell.h */,
+				C23DCAB422324D9400606780 /* KDSSysMsgDetailsCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C279D466221FFE1100956280 /* PersonalProfile */ = {
+			isa = PBXGroup;
+			children = (
+				C279D450221FC6C200956280 /* KDSPersonalProfileVC.h */,
+				C279D451221FC6C200956280 /* KDSPersonalProfileVC.m */,
+				C279D45D221FE5E500956280 /* KDSModifyNicknameVC.h */,
+				C279D45E221FE5E500956280 /* KDSModifyNicknameVC.m */,
+				C279D460221FEE8900956280 /* KDSModifyPwdVC.h */,
+				C279D461221FEE8900956280 /* KDSModifyPwdVC.m */,
+			);
+			name = PersonalProfile;
+			sourceTree = "<group>";
+		};
+		C279D46E22200CF300956280 /* SystemSettings */ = {
+			isa = PBXGroup;
+			children = (
+				C279D46A22200A1900956280 /* KDSSystemSettingVC.h */,
+				C279D46B22200A1900956280 /* KDSSystemSettingVC.m */,
+				C279D46F22200E3600956280 /* KDSLanguageSettingVC.h */,
+				C279D47022200E3600956280 /* KDSLanguageSettingVC.m */,
+				C269DD382223D9D0002B3CAF /* KDSUserAgreementVC.h */,
+				C269DD392223D9D0002B3CAF /* KDSUserAgreementVC.m */,
+				C2474E51222531A900BC6082 /* KDSAuthHelpVC.h */,
+				C2474E52222531A900BC6082 /* KDSAuthHelpVC.m */,
+			);
+			name = SystemSettings;
+			sourceTree = "<group>";
+		};
+		C2B8824921F5BBDE000A2990 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C24A2BFD21F9B1DD00AB98B4 /* Database */,
+				C2B882D021F7045E000A2990 /* Ble */,
+				C2B8824A21F5BBF3000A2990 /* Http */,
+				C269EB2221FF1DF100647896 /* KDSUserManager.h */,
+				C269EB2121FF1DF100647896 /* KDSUserManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		C2B8824A21F5BBF3000A2990 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				C237F51A21FAEA2E00F834C7 /* Model */,
+				C2B8824B21F5BC90000A2990 /* KDSHttpManager.h */,
+				C2B8824C21F5BC90000A2990 /* KDSHttpManager.m */,
+				C2B8825521F6B80D000A2990 /* KDSHttpManager+Login.h */,
+				C2B8825621F6B80D000A2990 /* KDSHttpManager+Login.m */,
+				C237F51421FAE93C00F834C7 /* KDSHttpManager+Ble.h */,
+				C237F51521FAE93C00F834C7 /* KDSHttpManager+Ble.m */,
+				C279D44D221FA10600956280 /* KDSHttpManager+User.h */,
+				C279D44E221FA10600956280 /* KDSHttpManager+User.m */,
+				71974B6F223FB96400E4AF8D /* KDSHttpResOption.h */,
+				71974B70223FB96400E4AF8D /* KDSHttpResOption.m */,
+				7112979A22FBC7E900874D01 /* KDSBreakpointDownload.h */,
+				7112979B22FBC7E900874D01 /* KDSBreakpointDownload.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		C2B882D021F7045E000A2990 /* Ble */ = {
+			isa = PBXGroup;
+			children = (
+				C2CC96C92215338500F5B5F0 /* Model */,
+				C2B882FA21F70477000A2990 /* KDSBleOptions.h */,
+				C2B882FD21F70478000A2990 /* KDSBleTunnelTask.h */,
+				C2B882FC21F70478000A2990 /* KDSBleTunnelTask.m */,
+				C2B882EE21F70476000A2990 /* KDSBluetoothTool.h */,
+				C2B882FF21F70478000A2990 /* KDSBluetoothTool.m */,
+				C2B882F421F70477000A2990 /* KDSBluetoothTool+Category.h */,
+				C2B882F121F70477000A2990 /* KDSBluetoothTool+Category.m */,
+			);
+			path = Ble;
+			sourceTree = "<group>";
+		};
+		C2B8830921F7182D000A2990 /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				7112979D22FC028200874D01 /* Psoc6OTA */,
+				C2B8830A21F71869000A2990 /* MBProgressHUD */,
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		C2B8830A21F71869000A2990 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C2B8830B21F71869000A2990 /* MBProgressHUD.m */,
+				C2B8830C21F71869000A2990 /* MBProgressHUD+MJ.h */,
+				C2B8830D21F71869000A2990 /* MBProgressHUD.h */,
+				C2B8830E21F71869000A2990 /* MBProgressHUD+MJ.m */,
+				C2B8830F21F71869000A2990 /* MBProgressHUD.bundle */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		C2CC969F2212917F00F5B5F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2CC96A92212C77C00F5B5F0 /* Search&BindBle */ = {
+			isa = PBXGroup;
+			children = (
+				C2CC96A32212A39400F5B5F0 /* KDSBleSearchTableVC.h */,
+				C2CC96A42212A39400F5B5F0 /* KDSBleSearchTableVC.m */,
+				C2CC96AA2212C7E700F5B5F0 /* KDSBleBindVC.h */,
+				C2CC96AB2212C7E700F5B5F0 /* KDSBleBindVC.m */,
+				7123554822141B6100B1A925 /* KDSHelpViewController.h */,
+				7123554622141B6100B1A925 /* KDSHelpViewController.m */,
+				7123554722141B6100B1A925 /* KDSHelpViewController.xib */,
+			);
+			name = "Search&BindBle";
+			sourceTree = "<group>";
+		};
+		C2CC96AD2214046700F5B5F0 /* DeviceHome */ = {
+			isa = PBXGroup;
+			children = (
+				C2CC96AE2214046700F5B5F0 /* Controller */,
+				C2CC96B52214046700F5B5F0 /* View */,
+			);
+			path = DeviceHome;
+			sourceTree = "<group>";
+		};
+		C2CC96AE2214046700F5B5F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71404D79223A5F850094E76A /* KDSDeviceInfoViewController.h */,
+				71404D77223A5F850094E76A /* KDSDeviceInfoViewController.m */,
+				71404D78223A5F850094E76A /* KDSDeviceInfoViewController.xib */,
+				C2CC96B32214046700F5B5F0 /* KDSDeviceVC.h */,
+				C2CC96B12214046700F5B5F0 /* KDSDeviceVC.m */,
+				C2CC96B42214046700F5B5F0 /* KDSDeviceVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2CC96B52214046700F5B5F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2CC96B62214046700F5B5F0 /* KDSDeviceTableViewCell.h */,
+				C2CC96B82214046700F5B5F0 /* KDSDeviceTableViewCell.m */,
+				C2CC96B72214046700F5B5F0 /* KDSDeviceTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2CC96BF2214F29800F5B5F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2CC96C02214F46F00F5B5F0 /* KDSLock.h */,
+				C2CC96C12214F46F00F5B5F0 /* KDSLock.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2CC96C92215338500F5B5F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2B882FB21F70477000A2990 /* KDSBleUnlockRecord.h */,
+				C2B882F221F70477000A2990 /* KDSBleUnlockRecord.m */,
+				C2B882F621F70477000A2990 /* KDSBleUserType.h */,
+				C2B882ED21F70476000A2990 /* KDSBleUserType.m */,
+				C2B882F721F70477000A2990 /* KDSBleWeeklyModel.h */,
+				C2B882F321F70477000A2990 /* KDSBleWeeklyModel.m */,
+				C2B882F921F70477000A2990 /* KDSBleYMDModel.h */,
+				C2B882F821F70477000A2990 /* KDSBleYMDModel.m */,
+				C2B882EF21F70477000A2990 /* KDSBleAlarmRecord.h */,
+				C2B882F521F70477000A2990 /* KDSBleAlarmRecord.m */,
+				C2B882FE21F70478000A2990 /* KDSBleScheduleModel.h */,
+				C2B882F021F70477000A2990 /* KDSBleScheduleModel.m */,
+				C2CC96CA221533C000F5B5F0 /* KDSBleLockInfoModel.h */,
+				C2CC96CB221533C000F5B5F0 /* KDSBleLockInfoModel.m */,
+				2E7A334B22F01612001DE2D6 /* KDSBleOpRec.h */,
+				2E7A334C22F01613001DE2D6 /* KDSBleOpRec.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2CC96D42216463700F5B5F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2CC96D52216465D00F5B5F0 /* UIEdgeLabel.h */,
+				C2CC96D62216465D00F5B5F0 /* UIEdgeLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2CC96E3221699B600F5B5F0 /* MoreSetting */ = {
+			isa = PBXGroup;
+			children = (
+				C2CC96C32215060200F5B5F0 /* KDSLockMoreSettingVC.h */,
+				C2CC96C42215060200F5B5F0 /* KDSLockMoreSettingVC.m */,
+				C2CC96D1221640F100F5B5F0 /* KDSLockPwdManageVC.h */,
+				C2CC96D2221640F100F5B5F0 /* KDSLockPwdManageVC.m */,
+				C2CC96D822164D2000F5B5F0 /* KDSMoreSettingAlterMgrPwdVC.h */,
+				C2CC96D922164D2000F5B5F0 /* KDSMoreSettingAlterMgrPwdVC.m */,
+				C279D422221A495100956280 /* KDSLockSecurityModeVC.h */,
+				C279D423221A495100956280 /* KDSLockSecurityModeVC.m */,
+				C2CC96E62217E2E200F5B5F0 /* KDSAMModeSpecificationVC.h */,
+				C2CC96E72217E2E200F5B5F0 /* KDSAMModeSpecificationVC.m */,
+				C2CC96EC221804D100F5B5F0 /* KDSLockAlterTimeVC.h */,
+				C2CC96ED221804D100F5B5F0 /* KDSLockAlterTimeVC.m */,
+				C2CC96E92217EE8700F5B5F0 /* KDSLockLanguageAlterVC.h */,
+				C2CC96EA2217EE8700F5B5F0 /* KDSLockLanguageAlterVC.m */,
+				C2CC96CE2215875900F5B5F0 /* KDSLockParamVC.h */,
+				C2CC96CF2215875900F5B5F0 /* KDSLockParamVC.m */,
+				7112979522FBC2AC00874D01 /* KDSDFUViewController.h */,
+				7112979622FBC2AC00874D01 /* KDSDFUViewController.m */,
+				7112979722FBC2AC00874D01 /* KDSDFUViewController.xib */,
+			);
+			name = MoreSetting;
+			sourceTree = "<group>";
+		};
+		E6AC8B9D2236A7E900CD8EFB /* OTA */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OTA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2523A6121EC971500AC1BCD /* xiaokaizhineng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2523A7821EC971700AC1BCD /* Build configuration list for PBXNativeTarget "xiaokaizhineng" */;
+			buildPhases = (
+				8B2945EEA49499D6EFD14637 /* [CP] Check Pods Manifest.lock */,
+				C2523A5E21EC971500AC1BCD /* Sources */,
+				C2523A5F21EC971500AC1BCD /* Frameworks */,
+				C2523A6021EC971500AC1BCD /* Resources */,
+				6008A92EA0FBFB212D340940 /* [CP] Embed Pods Frameworks */,
+				C2CC96E42216B67000F5B5F0 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xiaokaizhineng;
+			productName = xiaokaizhineng;
+			productReference = C2523A6221EC971500AC1BCD /* xiaokaizhineng.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2523A5A21EC971500AC1BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KDS;
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "shenzhen kaadas intelligent technology";
+				TargetAttributes = {
+					C2523A6121EC971500AC1BCD = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C2523A5D21EC971500AC1BCD /* Build configuration list for PBXProject "xiaokaizhineng" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = C2523A5921EC971500AC1BCD;
+			productRefGroup = C2523A6321EC971500AC1BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2523A6121EC971500AC1BCD /* xiaokaizhineng */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2523A6021EC971500AC1BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A866DA223A54FE005E0AF3 /* tutorialMax3.png in Resources */,
+				7118B9C4221A882C001391E0 /* KDSCardListTableViewCell.xib in Resources */,
+				71404D7B223A5F850094E76A /* KDSDeviceInfoViewController.xib in Resources */,
+				C2A866D4223A54FE005E0AF3 /* tutorialMax2.png in Resources */,
+				C2A866D5223A54FE005E0AF3 /* tutorialX3.png in Resources */,
+				C279D458221FDB8800956280 /* InfoPlist.strings in Resources */,
+				C273638F21F98FCD001800AD /* loginPwdRightAccessoryNormal.png in Resources */,
+				C273638B21F98377001800AD /* loginUsernameAccessory.png in Resources */,
+				7118B9E3221AA504001391E0 /* KDSFamilyMemberTableViewCell.xib in Resources */,
+				7118B9D3221A9BC5001391E0 /* KDSCardDetailViewController.xib in Resources */,
+				7118B98022169FD2001391E0 /* KDSEverydayView.xib in Resources */,
+				7118B9852216A349001391E0 /* KDSWeekDaySelectTableViewCell.xib in Resources */,
+				7123554E22143B0600B1A925 /* WSDatePickerView.xib in Resources */,
+				C2523A7221EC971700AC1BCD /* LaunchScreen.storyboard in Resources */,
+				7166F3DE221190520092EEFF /* KDSPwdListTableViewCell.xib in Resources */,
+				C273638921F98068001800AD /* loginLogo.png in Resources */,
+				7118B97B221699D7001391E0 /* KDSCycleViewController.xib in Resources */,
+				7118B99B221A3FC2001391E0 /* KDSFingerprintManaViewController.xib in Resources */,
+				C2A866D3223A54FE005E0AF3 /* tutorialX1.png in Resources */,
+				C2CC96BC2214046700F5B5F0 /* KDSDeviceVC.xib in Resources */,
+				7166F3D922117FC80092EEFF /* KDSPwsTongbu.xib in Resources */,
+				C2CC96BD2214046700F5B5F0 /* KDSDeviceTableViewCell.xib in Resources */,
+				7118B977221699D7001391E0 /* KDSAgingViewController.xib in Resources */,
+				7118B9DE221AA355001391E0 /* KDSFamilyMemberlistVC.xib in Resources */,
+				C2523AD721EDE07400AC1BCD /* homepageRightArrow.jpg in Resources */,
+				7118B9B4221A7D74001391E0 /* KDSFingerprintDetailVC.xib in Resources */,
+				C2B8831221F71869000A2990 /* MBProgressHUD.bundle in Resources */,
+				717332902232185A0095BDE2 /* KDSTemPwdlistdViewController.xib in Resources */,
+				C2523A9721ED79DF00AC1BCD /* Localizable.strings in Resources */,
+				C2A866D0223A54FE005E0AF3 /* tutorialX2.png in Resources */,
+				C273638721F97E49001800AD /* loginBg.png in Resources */,
+				C24A2BFC21F9B04300AB98B4 /* server.p12 in Resources */,
+				7166F3D1221175B20092EEFF /* KDSPwdListViewController.xib in Resources */,
+				C2A866D8223A54FE005E0AF3 /* tutorial63.png in Resources */,
+				C2523A8521ED609E00AC1BCD /* sortedEnames.plist in Resources */,
+				7112979922FBC2AC00874D01 /* KDSDFUViewController.xib in Resources */,
+				C2A866882239F745005E0AF3 /* loginAgreement.png in Resources */,
+				C2A866CF223A54FE005E0AF3 /* tutorial62.png in Resources */,
+				C2A866D6223A54FE005E0AF3 /* tutorial52.png in Resources */,
+				C2A8668A2239F752005E0AF3 /* loginNoAgreement.png in Resources */,
+				71974B7622410DD800E4AF8D /* KDSAddPwdSuccesVC.xib in Resources */,
+				C2A866D7223A54FE005E0AF3 /* tutorial61.png in Resources */,
+				7166F3F22212A8810092EEFF /* KDSPwdEditViewController.xib in Resources */,
+				C2A866D9223A54FE005E0AF3 /* tutorial53.png in Resources */,
+				C2523A8421ED609E00AC1BCD /* sortedChnames.plist in Resources */,
+				7123554A22141B6100B1A925 /* KDSHelpViewController.xib in Resources */,
+				7118B9902216B663001391E0 /* KDSAddTempPwdViewController.xib in Resources */,
+				7118B9BF221A877D001391E0 /* KDSCardListViewController.xib in Resources */,
+				C2523A6F21EC971700AC1BCD /* Assets.xcassets in Resources */,
+				C2A866D2223A54FE005E0AF3 /* tutorialMax1.png in Resources */,
+				7118B9952216BDDD001391E0 /* KDSTempPwdDetailVC.xib in Resources */,
+				C2A866D1223A54FE005E0AF3 /* tutorial51.png in Resources */,
+				C273639121F98FE9001800AD /* loginPwdRightAccessorySelected.png in Resources */,
+				7118B9E8221AA6D2001391E0 /* KDSAddMemberVC.xib in Resources */,
+				C2523AD521EDCB9800AC1BCD /* homepageUnlock.jpg in Resources */,
+				C2523A8321ED609E00AC1BCD /* sortedChFantinames.plist in Resources */,
+				C2CC96DC221656C500F5B5F0 /* loginPwdLeftAccessory.png in Resources */,
+				7118B9A0221A411C001391E0 /* KDSFingerprintManaTableViewCell.xib in Resources */,
+				C269EB2021FEF8CC00647896 /* CRCCODE.plist in Resources */,
+				C24A2BFA21F99D2B00AB98B4 /* loginCaptchaAccessory.png in Resources */,
+				7118B9ED221AAA76001391E0 /* KDSMemberDetailVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6008A92EA0FBFB212D340940 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xiaokaizhineng/Pods-xiaokaizhineng-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLCipher/SQLCipher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLCipher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xiaokaizhineng/Pods-xiaokaizhineng-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B2945EEA49499D6EFD14637 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xiaokaizhineng-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2CC96E42216B67000F5B5F0 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#!/bin/sh\n#\n# Copyright 2016 Bugly, Tencent. All rights reserved.\n#\n# V1.4.0\n#\n# 2016.08.03\n#\n#\n#\n######################################################\n# 1. 脚本集成到Xcode工程的Target\n######################################################\n#\n# --- Copy the SCRIPT to the Run Script of Build Phases in the Xcode project ---\n#\n# #\nBUGLY_APP_ID=\"88cb363b8c\"\n# #\nBUGLY_APP_KEY=\"c0fdc3e7-f35a-4327-be54-92542951bf01\"\n# #\nBUNDLE_IDENTIFIER=\"com.xiaokai.xiaokaizhineng\"\n# #\nUPLOAD_DSYM_ONLY=1\n#\n# # 脚本默认配置的版本格式为CFBundleShortVersionString(CFBundleVersion),  如果你修改默认的版本格式, 请设置此变量, 如果不想修改, 请忽略此设置\n# CUSTOMIZED_APP_VERSION=\"\"\n#\n# # Debug模式编译是否上传，1＝上传 0＝不上传，默认不上传\n# UPLOAD_DEBUG_SYMBOLS=0\n#\n# # 模拟器编译是否上传，1=上传 0=不上传，默认不上传\n# UPLOAD_SIMULATOR_SYMBOLS=0\n#\n# #只有Archive操作时上传, 1=支持Archive上传 0=所有Release模式编译都上传\n# UPLOAD_ARCHIVE_ONLY=0\n#\n# #\n# source dSYMUpload.sh\n#\n# --- END OF SCRIPT ---\n#\n#\n#\n#\n#######################################################\n# 2. 脚本根据输入参数处理\n#######################################################\n#\n# #命令行下输入应用基本信息, .dSYM文件的父目录路径, 输出文件目录即可\n#\n# sh dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir>\n#\n# #\n#\n# #注意:\n# # 1. dSYMUpload.sh会调用buglySymboliOS.jar进行.dSYM解析，所以依赖Java运行时环境\n# # 2. dSYMUpload.sh和buglySymboliOS.jar的文件路径需一致\n#\n#\n\n#\n# --- CONTENT OF SCRIPT ---\n#\n\n# Bugly服务域名\nBUGLY_DSYM_UPLOAD_DOMAIN=\"api.bugly.qq.com\"\n\n# 注意jar工具的路径跟dSYMUpload.sh脚本路径一致, 请务必保证jar路径的正确性\nBUGLY_SYMBOL_JAR_PATH=\"dsymtool/buglySymboliOS.jar\"\n# 查找添加到系统目录的jar工具\nif [ ! -f \"${BUGLY_SYMBOL_JAR_PATH}\" ]; then\nBUGLY_SYMBOL_JAR_PATH=\"$HOME/bin/buglySymboliOS.jar\"\nfi\n\n# 打印错误信息\nfunction exitWithMessage(){\necho \"--------------------------------\"\necho \"${1}\"\necho \"--------------------------------\"\nexit ${2}\n}\n\n# 上传bSYMBOL文件\nfunction dSYMUpload() {\nP_APP_ID=\"$1\"\nP_APP_KEY=\"$2\"\nP_APP_BUNDLE_ID=\"$3\"\nP_APP_VERSION=\"$4\"\nP_BSYMBOL_ZIP_FILE=\"$5\"\n\n#\nP_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE##*/}\nP_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE_NAME//&/_}\nP_BSYMBOL_ZIP_FILE_NAME=\"${P_BSYMBOL_ZIP_FILE_NAME// /_}\"\n\nDSYM_UPLOAD_URL=\"https://${BUGLY_DSYM_UPLOAD_DOMAIN}/openapi/file/upload/symbol?app_id=${P_APP_ID}&app_key=${P_APP_KEY}\"\necho \"dSYM upload url: ${DSYM_UPLOAD_URL}\"\n\necho \"-----------------------------\"\nSTATUS=$(/usr/bin/curl -k \"${DSYM_UPLOAD_URL}\" --form \"api_version=1\" --form \"app_id=${P_APP_ID}\" --form \"app_key=${P_APP_KEY}\" --form \"symbolType=2\"  --form \"bundleId=${BUNDLE_IDENTIFIER}\" --form \"productVersion=${BUGLY_APP_VERSION}\" --form \"fileName=${P_BSYMBOL_ZIP_FILE_NAME}\" --form \"file=@${P_BSYMBOL_ZIP_FILE}\" --verbose)\necho \"-----------------------------\"\n\nUPLOAD_RESULT=\"FAILTURE\"\necho \"Bugly server response: ${STATUS}\"\nif [ ! \"${STATUS}\" ]; then\necho \"Error: Failed to upload the zip archive file.\"\nelif [[ \"${STATUS}\" == *\"{\\\"reponseCode\\\":\\\"0\\\"}\"* ]]; then\necho \"Success to upload the dSYM for the app [${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION}]\"\nUPLOAD_RESULT=\"SUCCESS\"\nelse\necho \"Error: Failed to upload the zip archive file to Bugly.\"\nfi\n\n#Remove temp dSYM archive\n#echo \"Remove temporary zip archive: ${DSYM_ZIP_FPATH}\"\n#/bin/rm -f \"${DSYM_ZIP_FPATH}\"\n\nif [ \"$?\" -ne 0 ]; then\nexitWithMessage \"Error: Failed to remove temporary zip archive.\" 0\nfi\n\necho \"--------------------------------\"\necho \"${UPLOAD_RESULT} - dSYM upload complete.\"\n\nif [[ \"${UPLOAD_RESULT}\" == \"FAILTURE\" ]]; then\necho \"--------------------------------\"\necho \"Failed to upload the dSYM\"\necho \"Please check the script and try it again.\"\nfi\n}\n\n# .dSYM解析为bSYMBOL文件\nfunction dSYMParse() {\nDSYM_FILE=\"$1\"\nDSYM_SYMBOL_FILE=\"$2\"\n\necho \"--------------------------------\"\necho \"Extract symbol info from .dSYM file. to ${DSYM_SYMBOL_FILE}\"\n(/usr/bin/java -Xms512m -Xmx1024m -Dfile.encoding=UTF8 -jar \"${BUGLY_SYMBOL_JAR_PATH}\" -i \"${DSYM_FILE}\" -o \"${DSYM_SYMBOL_FILE}\" ) || exitWithMessage \"Error: Failed to extract symbols.\" 1\necho \"--------------------------------\"\n\n}\n\n# 执行\nfunction run() {\n\nCONFIG_BUGLY_APP_ID=\"$1\"\nCONFIG_BUGLY_APP_KEY=\"$2\"\n\nCONFIG_BUGLY_APP_BUNDLE_IDENTIFIER=\"$3\"\nCONFIG_BUGLY_APP_VERSION=\"$4\"\nCONFIG_DSYM_SOURCE_DIR=\"$5\"\nCONFIG_DSYM_DEST_DIR=\"$6\"\nCONFIG_UPLOAD_DSYM_ONLY=\"$7\"\n\n# 检查必须参数是否设置\nif [ ! \"${CONFIG_BUGLY_APP_ID}\" ]; then\nexitWithMessage \"Error: Bugly App ID not defined. Please set 'BUGLY_APP_ID' \" 0\nfi\n\nif [[ \"${CONFIG_BUGLY_APP_ID}\" == *\"App ID\"* ]]; then\nexitWithMessage \"Error: Bugly App ID not defined.\" 0\nfi\n\nif [ ! \"${CONFIG_BUGLY_APP_KEY}\" ]; then\nexitWithMessage \"Error: Bugly App Key not defined.\" 0\nfi\n\nif [ ! \"${CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER}\" ]; then\nexitWithMessage \"Error: Bundle Identifier not defined.\" 0\nfi\n\nif [ ! \"${CONFIG_BUGLY_APP_VERSION}\" ]; then\nexitWithMessage \"Error: App Version not defined.\" 0\nfi\n\nif [ ! -e \"${CONFIG_DSYM_SOURCE_DIR}\" ]; then\nexitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_SOURCE_DIR}\" 0\nfi\n\nif [ ! \"${CONFIG_DSYM_DEST_DIR}\" ]; then\nexitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_DEST_DIR}\" 0\nfi\n\nif [ ! -e \"${CONFIG_DSYM_DEST_DIR}\" ]; then\nmkdir ${CONFIG_DSYM_DEST_DIR}\nfi\n\nDSYM_FOLDER=\"${CONFIG_DSYM_SOURCE_DIR}\"\nIFS=$'\\n'\n\necho \"Scaning dSYM FOLDER: ${DSYM_FOLDER} ...\"\nRET=\"F\"\n\n#\nfor dsymFile in $(find \"$DSYM_FOLDER\" -name '*.dSYM'); do\nRET=\"T\"\necho \"Found dSYM file: $dsymFile\"\n\nDSYM_FILE_NAME=${dsymFile##*/}\nDSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_FILE_NAME}.zip\"\nDSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_SYMBOL_ZIP_FILE_NAME// /_}\"\nDSYM_SYMBOL_ZIP_FILE=${CONFIG_DSYM_DEST_DIR}/${DSYM_SYMBOL_ZIP_FILE_NAME}\n\nif [ $CONFIG_UPLOAD_DSYM_ONLY -eq 1 ]; then\nif [ -e $DSYM_SYMBOL_ZIP_FILE ]; then\nrm -f $DSYM_SYMBOL_ZIP_FILE\nfi\n# 如果只上传dSYM，直接压缩dSYM目录\nzip -r -j $DSYM_SYMBOL_ZIP_FILE $dsymFile -x *.plist\nelse\n# 使用符号表工具来生成Symbol文件\ndSYMParse $dsymFile $DSYM_SYMBOL_ZIP_FILE\nfi\n\n# 上传\ndSYMUpload $CONFIG_BUGLY_APP_ID $CONFIG_BUGLY_APP_KEY $CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER $CONFIG_BUGLY_APP_VERSION $DSYM_SYMBOL_ZIP_FILE\ndone\n\nif [ $RET = \"F\" ]; then\nexitWithMessage \"No .dSYM found in ${DSYM_FOLDER}\" 0\nfi\n}\n\n# 在Xcode工程中执行\nfunction runInXcode(){\necho \"Uploading dSYM to Bugly in Xcode ...\"\n\necho \"Info.Plist : ${INFOPLIST_FILE}\"\n\nBUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' \"${INFOPLIST_FILE}\")\nBUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' \"${INFOPLIST_FILE}\")\n\n# 组装Bugly默认识别的版本信息(格式为CFBundleShortVersionString(CFBundleVersion), 例如: 1.0(1))\nif [ ! \"${CUSTOMIZED_APP_VERSION}\" ]; then\nBUGLY_APP_VERSION=\"${BUNDLE_SHORT_VERSION}(${BUNDLE_VERSION})\"\nelse\nBUGLY_APP_VERSION=\"${CUSTOMIZED_APP_VERSION}\"\nfi\n\necho \"--------------------------------\"\necho \"Prepare application information.\"\necho \"--------------------------------\"\n\necho \"Product Name: ${PRODUCT_NAME}\"\necho \"Bundle Identifier: ${BUNDLE_IDENTIFIER}\"\necho \"Version: ${BUNDLE_SHORT_VERSION}\"\necho \"Build: ${BUNDLE_VERSION}\"\n\necho \"Bugly App ID: ${BUGLY_APP_ID}\"\necho \"Bugly App key: ${BUGLY_APP_KEY}\"\necho \"Bugly App Version: ${BUGLY_APP_VERSION}\"\n\necho \"--------------------------------\"\necho \"Check the arguments ...\"\n\n##检查模拟器编译是否允许上传符号\nif [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\nif [ $UPLOAD_SIMULATOR_SYMBOLS -eq 0 ]; then\nexitWithMessage \"Warning: Build for simulator and skipping to upload. \\nYou can modify 'UPLOAD_SIMULATOR_SYMBOLS' to 1 in the script.\" 0\nfi\nfi\n\n##检查是否是Release模式编译\nif [ \"${CONFIGURATION=}\" == \"Debug\" ]; then\nif [ $UPLOAD_DEBUG_SYMBOLS -eq 0 ]; then\nexitWithMessage \"Warning: Build for debug mode and skipping to upload. \\nYou can modify 'UPLOAD_DEBUG_SYMBOLS' to 1 in the script.\" 0\nfi\nfi\n\n##检查是否Archive操作\nif [ $UPLOAD_ARCHIVE_ONLY -eq 1 ]; then\nif [[ \"$TARGET_BUILD_DIR\" == *\"/Archive\"* ]]; then\necho \"Archive the package\"\nelse\nexitWithMessage \"Warning: Build for NOT Archive mode and skipping to upload. \\nYou can modify 'UPLOAD_ARCHIVE_ONLY' to 0 in the script.\" 0\nfi\nfi\n\n#\nrun ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${BUILD_DIR}/BuglySymbolTemp ${UPLOAD_DSYM_ONLY}\n}\n\n# 根据Xcode的环境变量判断是否处于Xcode环境\nINFO_PLIST_FILE=\"${INFOPLIST_FILE}\"\n\nBuildInXcode=\"F\"\nif [ -f \"${INFO_PLIST_FILE}\" ]; then\nBuildInXcode=\"T\"\nfi\n\nif [ $BuildInXcode = \"T\" ]; then\nrunInXcode\nelse\necho \"\\nUsage: dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir> [upload_dsym_only]\\n\"\n# 你可以在此处直接设置BuglyAppID和BuglyAppKey，排除不常变参数的输入\nBUGLY_APP_ID=\"$1\"\nBUGLY_APP_KEY=\"$2\"\nBUNDLE_IDENTIFIER=\"$3\"\nBUGLY_APP_VERSION=\"$4\"\nDWARF_DSYM_FOLDER_PATH=\"$5\"\nSYMBOL_OUTPUT_PATH=\"$6\"\nUPLOAD_DSYM_ONLY=$7\nrun ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${SYMBOL_OUTPUT_PATH} ${UPLOAD_DSYM_ONLY}\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2523A5E21EC971500AC1BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2474E53222531A900BC6082 /* KDSAuthHelpVC.m in Sources */,
+				C279D47122200E3600956280 /* KDSLanguageSettingVC.m in Sources */,
+				711297B422FC028200874D01 /* ResourceHandler.m in Sources */,
+				7118B9EC221AAA76001391E0 /* KDSMemberDetailVC.m in Sources */,
+				C2CC96A82212AF4000F5B5F0 /* KDSBleInfoCell.m in Sources */,
+				7166F3D0221175B20092EEFF /* KDSPwdListViewController.m in Sources */,
+				C2CC96E82217E2E300F5B5F0 /* KDSAMModeSpecificationVC.m in Sources */,
+				711297B322FC028200874D01 /* Utilities.m in Sources */,
+				C2474E56222536D900BC6082 /* KDSAuthHelpCell.m in Sources */,
+				C269DD3022237021002B3CAF /* KDSGesturePwdVC.m in Sources */,
+				C2B8825721F6B80D000A2990 /* KDSHttpManager+Login.m in Sources */,
+				C2B8830021F70478000A2990 /* KDSBleUserType.m in Sources */,
+				C279D449221F913500956280 /* KDSMeTableViewCell.m in Sources */,
+				717B9AD9221E972200249081 /* KDSPwdListModel.m in Sources */,
+				C2523A8E21ED615A00AC1BCD /* KDSNavigationController.m in Sources */,
+				7118B979221699D7001391E0 /* KDSCycleViewController.m in Sources */,
+				7118B9DD221AA355001391E0 /* KDSFamilyMemberlistVC.m in Sources */,
+				C269EB2B2200401700647896 /* KDSLockPwdInfo.m in Sources */,
+				C2523AA921EDA20900AC1BCD /* KDSTableViewController.m in Sources */,
+				2E7A335122F01673001DE2D6 /* KDSCodingObject.m in Sources */,
+				C2523A9221ED6CB300AC1BCD /* KDSLoginVC.m in Sources */,
+				C23DCAAF2232176700606780 /* KDSSysMsgCell.m in Sources */,
+				7118B9842216A349001391E0 /* KDSWeekDaySelectTableViewCell.m in Sources */,
+				C24A2C0A21F9D4F000AB98B4 /* KDSUser.m in Sources */,
+				C237F51621FAE93C00F834C7 /* KDSHttpManager+Ble.m in Sources */,
+				C2B8830421F70478000A2990 /* KDSBleWeeklyModel.m in Sources */,
+				C269DD34222372C3002B3CAF /* KDSGesturePwdView.m in Sources */,
+				712355452213C44700B1A925 /* CBGroupAndStreamView.m in Sources */,
+				C279D469221FFED900956280 /* KDSAboutVC.m in Sources */,
+				C28584812237403400FF94A0 /* KDSUnlockAttr.m in Sources */,
+				7118B9C3221A882C001391E0 /* KDSCardListTableViewCell.m in Sources */,
+				C2B8831121F71869000A2990 /* MBProgressHUD+MJ.m in Sources */,
+				7118B9E7221AA6D2001391E0 /* KDSAddMemberVC.m in Sources */,
+				C2B8830721F70478000A2990 /* KDSBleTunnelTask.m in Sources */,
+				C2745E9E2240D9130003557F /* KDSClearGesturePwdVC.m in Sources */,
+				C2CC96D02215875900F5B5F0 /* KDSLockParamVC.m in Sources */,
+				C2B8830221F70478000A2990 /* KDSBluetoothTool+Category.m in Sources */,
+				C279D455221FC85500956280 /* KDSPersonalProfileCell.m in Sources */,
+				C2B8831021F71869000A2990 /* MBProgressHUD.m in Sources */,
+				7118B97E22169FBC001391E0 /* KDSEverydayView.m in Sources */,
+				C2B8824D21F5BC90000A2990 /* KDSHttpManager.m in Sources */,
+				C2B8830621F70478000A2990 /* KDSBleYMDModel.m in Sources */,
+				C279D424221A495100956280 /* KDSLockSecurityModeVC.m in Sources */,
+				C2CC96D72216465D00F5B5F0 /* UIEdgeLabel.m in Sources */,
+				C2CC96D3221640F100F5B5F0 /* KDSLockPwdManageVC.m in Sources */,
+				C279D462221FEE8900956280 /* KDSModifyPwdVC.m in Sources */,
+				711297B823055BC400874D01 /* JGProgressView.m in Sources */,
+				7166F3D722117FB50092EEFF /* KDSPwsTongbu.m in Sources */,
+				C23DCAB222324C1000606780 /* KDSSystemMsgDetailsVC.m in Sources */,
+				711297B222FC028200874D01 /* NSString+hex.m in Sources */,
+				C2CC96CC221533C000F5B5F0 /* KDSBleLockInfoModel.m in Sources */,
+				C23DCAAC2231110700606780 /* KDSSysMessage.m in Sources */,
+				2E7A334D22F01613001DE2D6 /* KDSBleOpRec.m in Sources */,
+				C2B8830821F70478000A2990 /* KDSBluetoothTool.m in Sources */,
+				7173328B223000EA0095BDE2 /* WeekModel.m in Sources */,
+				C279D46C22200A1900956280 /* KDSSystemSettingVC.m in Sources */,
+				C2CC96AC2212C7E700F5B5F0 /* KDSBleBindVC.m in Sources */,
+				71974B71223FB96400E4AF8D /* KDSHttpResOption.m in Sources */,
+				C24A2C0021F9B20700AB98B4 /* KDSDBManager.m in Sources */,
+				C2CC969C221266FD00F5B5F0 /* KDSDeviceModelListTableVC.m in Sources */,
+				7118B9BE221A877D001391E0 /* KDSCardListViewController.m in Sources */,
+				C24A2C0621F9BA9E00AB98B4 /* NSString+extension.m in Sources */,
+				7123554F22143B0600B1A925 /* WSDatePickerView.m in Sources */,
+				C279D437221BC71200956280 /* KDSRecordHeaderFooterView.m in Sources */,
+				C237F51921FAEA2A00F834C7 /* MyDevice.m in Sources */,
+				7118B9942216BDDD001391E0 /* KDSTempPwdDetailVC.m in Sources */,
+				C23DCAA3222D1EF600606780 /* KDSAddKeyVC.m in Sources */,
+				C2474E622229377C00BC6082 /* KDSAutoConnectViewController.m in Sources */,
+				C2CC96BB2214046700F5B5F0 /* KDSDeviceVC.m in Sources */,
+				7118B99F221A411C001391E0 /* KDSFingerprintManaTableViewCell.m in Sources */,
+				7166F3D4221178160092EEFF /* UIView+BlockGesture.m in Sources */,
+				C23DCAA922310F3800606780 /* KDSFAQ.m in Sources */,
+				7118B98F2216B663001391E0 /* KDSAddTempPwdViewController.m in Sources */,
+				71974B7522410DD800E4AF8D /* KDSAddPwdSuccesVC.m in Sources */,
+				C279D440221C2A1500956280 /* KDSLockInfoVC.m in Sources */,
+				C269DD3A2223D9D0002B3CAF /* KDSUserAgreementVC.m in Sources */,
+				7123555522143C5B00B1A925 /* UIView+Extension.m in Sources */,
+				C2B882B021F6FB24000A2990 /* CBPeripheral+Extension.m in Sources */,
+				7118B9E2221AA504001391E0 /* KDSFamilyMemberTableViewCell.m in Sources */,
+				C269EB2321FF1DF100647896 /* KDSUserManager.m in Sources */,
+				2E7A335422F02378001DE2D6 /* KDSOperationalRecord.m in Sources */,
+				C23588F3223289FA0060C459 /* KDSSystemMsgVC.m in Sources */,
+				71974B7A2243918200E4AF8D /* KDSHomepageVC.m in Sources */,
+				C2523A8621ED609E00AC1BCD /* XWCountryCodeController.m in Sources */,
+				C2474E5C22278B2500BC6082 /* KDSFAQViewController.m in Sources */,
+				C23DCAA62230A0BE00606780 /* KDSSecurityAuthenticationVC.m in Sources */,
+				C237F52221FAEE2F00F834C7 /* KDSDeviceNicknameView.m in Sources */,
+				C279D44F221FA10600956280 /* KDSHttpManager+User.m in Sources */,
+				C2CC96C52215060200F5B5F0 /* KDSLockMoreSettingVC.m in Sources */,
+				7112979C22FBC7E900874D01 /* KDSBreakpointDownload.m in Sources */,
+				C279D441221C2A1500956280 /* KDSRecordDetailsVC.m in Sources */,
+				C279D45F221FE5E500956280 /* KDSModifyNicknameVC.m in Sources */,
+				712355422213C43900B1A925 /* UIView+CBExtension.m in Sources */,
+				C2CC96A52212A39400F5B5F0 /* KDSBleSearchTableVC.m in Sources */,
+				C2B882B321F6FBEC000A2990 /* NSData+JKEncrypt.m in Sources */,
+				C2CC96EB2217EE8700F5B5F0 /* KDSLockLanguageAlterVC.m in Sources */,
+				7166F3DD221190520092EEFF /* KDSPwdListTableViewCell.m in Sources */,
+				C2CC96DA22164D2000F5B5F0 /* KDSMoreSettingAlterMgrPwdVC.m in Sources */,
+				711297B122FC028200874D01 /* CBPeripheralExt.m in Sources */,
+				7112979822FBC2AC00874D01 /* KDSDFUViewController.m in Sources */,
+				C2CC96C22214F46F00F5B5F0 /* KDSLock.m in Sources */,
+				C279D42E221A917A00956280 /* News.m in Sources */,
+				7118B976221699D7001391E0 /* KDSCycleSelectViewController.m in Sources */,
+				C2A86690223A2702005E0AF3 /* KDSTutorialVC.m in Sources */,
+				7118B99A221A3FC2001391E0 /* KDSFingerprintManaViewController.m in Sources */,
+				C2523ABD21EDC4D100AC1BCD /* KDSTabBarController.m in Sources */,
+				7123555222143C2D00B1A925 /* NSDate+Extension.m in Sources */,
+				7166F3EC2212A8620092EEFF /* KDSAddPwdViewController.m in Sources */,
+				C23DCAB522324D9400606780 /* KDSSysMsgDetailsCell.m in Sources */,
+				C279D44C221F9F9600956280 /* KDSMeVC.m in Sources */,
+				7173328F2232185A0095BDE2 /* KDSTemPwdlistdViewController.m in Sources */,
+				71404D7A223A5F850094E76A /* KDSDeviceInfoViewController.m in Sources */,
+				7118B97A221699D7001391E0 /* KDSAgingViewController.m in Sources */,
+				711297AF22FC028200874D01 /* BootLoaderServiceModel.m in Sources */,
+				C2B8830121F70478000A2990 /* KDSBleScheduleModel.m in Sources */,
+				C2B8830321F70478000A2990 /* KDSBleUnlockRecord.m in Sources */,
+				C2CC96EE221804D100F5B5F0 /* KDSLockAlterTimeVC.m in Sources */,
+				C2523AAD21EDA72100AC1BCD /* KDSTool.m in Sources */,
+				7123554922141B6100B1A925 /* KDSHelpViewController.m in Sources */,
+				C2CC96BE2214046700F5B5F0 /* KDSDeviceTableViewCell.m in Sources */,
+				711297B022FC028200874D01 /* CyCBManager.m in Sources */,
+				C2474E592226703100BC6082 /* KDSAlarmModel.m in Sources */,
+				7166F3F52212D0CC0092EEFF /* SectionChooseView.m in Sources */,
+				C2523AB021EDB20700AC1BCD /* KDSSignupVC.m in Sources */,
+				C2523A7521EC971700AC1BCD /* main.m in Sources */,
+				C279D452221FC6C200956280 /* KDSPersonalProfileVC.m in Sources */,
+				7118B9D2221A9BC5001391E0 /* KDSCardDetailViewController.m in Sources */,
+				C2523AB621EDBA5300AC1BCD /* NSTimer+KDSBlock.m in Sources */,
+				C2CC96A22212933C00F5B5F0 /* KDSDeviceModelCell.m in Sources */,
+				C269DD372223D10F002B3CAF /* KDSUserAgreement.m in Sources */,
+				C2474E5F2227D99D00BC6082 /* KDSAuthMember.m in Sources */,
+				C2CC96C822150E1C00F5B5F0 /* KDSLockMoreSettingCell.m in Sources */,
+				C279D431221AAF4200956280 /* KDSRecordCell.m in Sources */,
+				C2766ED32221304200112700 /* KDSSecuritySettingVC.m in Sources */,
+				C2523A6721EC971500AC1BCD /* AppDelegate.m in Sources */,
+				C2523A8B21ED610600AC1BCD /* KDSViewController.m in Sources */,
+				7118B9B3221A7D74001391E0 /* KDSFingerprintDetailVC.m in Sources */,
+				7166F3F12212A8810092EEFF /* KDSPwdEditViewController.m in Sources */,
+				C269DD3D222409EE002B3CAF /* KDSAuthException.m in Sources */,
+				C2B8830521F70478000A2990 /* KDSBleAlarmRecord.m in Sources */,
+				711297B522FC028200874D01 /* OTAFileParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2523A7021EC971700AC1BCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2523A7121EC971700AC1BCD /* Base */,
+				C2523A9521ED79C200AC1BCD /* zh-Hans */,
+				C2523A9621ED79D600AC1BCD /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C2523A9921ED79DF00AC1BCD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2523A9821ED79DF00AC1BCD /* en */,
+				C2523A9A21ED79E100AC1BCD /* zh-Hans */,
+				C2523A9B21ED79E300AC1BCD /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C279D45A221FDB8800956280 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C279D459221FDB8800956280 /* en */,
+				C279D45B221FDB8A00956280 /* zh-Hans */,
+				C279D45C221FDB8C00956280 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2523A7621EC971700AC1BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2523A7721EC971700AC1BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2523A7921EC971700AC1BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247A347ECA4AE6B6414B6337 /* Pods-xiaokaizhineng.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWFL2X69J2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/xiaokaizhineng/PrefixHeader.pch";
+				INFOPLIST_FILE = xiaokaizhineng/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaokai.xiaokaizhineng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		C2523A7A21EC971700AC1BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC3AB297EEE73EC8D3251BB /* Pods-xiaokaizhineng.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWFL2X69J2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/xiaokaizhineng/PrefixHeader.pch";
+				INFOPLIST_FILE = xiaokaizhineng/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaokai.xiaokaizhineng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2523A5D21EC971500AC1BCD /* Build configuration list for PBXProject "xiaokaizhineng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2523A7621EC971700AC1BCD /* Debug */,
+				C2523A7721EC971700AC1BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2523A7821EC971700AC1BCD /* Build configuration list for PBXNativeTarget "xiaokaizhineng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2523A7921EC971700AC1BCD /* Debug */,
+				C2523A7A21EC971700AC1BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2523A5A21EC971500AC1BCD /* Project object */;
+}

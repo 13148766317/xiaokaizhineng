@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  xiaokaizhineng
+
+  Created by orange on 2019/2/22.
+  Copyright © 2019年 shenzhen kaadas intelligent technology. All rights reserved.
+*/
+CFBundleDisplayName = "xiaokai";
+
+//NSLocationAlwaysUsageDescription = "Your location information is used to set up automatic unlock";
+
+NSPhotoLibraryUsageDescription = "Access your album permissions in the upload avatar image service";
+
+NSCameraUsageDescription = "Access your camera permissions in the upload avatar image service";
+

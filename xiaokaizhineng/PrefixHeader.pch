@@ -1,0 +1,50 @@
+//
+//  PrefixHeader.pch
+//  xiaokaizhineng
+//
+//  Created by orange on 2019/1/15.
+//  Copyright © 2019年 shenzhen kaadas intelligent technology. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "KDSTool.h"
+#import "KDSUserManager.h"
+
+/*国际化语言相关*/
+#define AppLanguage                   @"appLanguage"
+#define JianTiZhongWen                @"zh-Hans"
+#define FanTiZhongWen                 @"zh-Hant"
+#define English                       @"en"
+#define Thailand                      @"th"
+
+//应用内切换语言
+//#define Localized(key)  [[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:AppLanguage]] ofType:@"lproj"]] localizedStringForKey:(key) value:nil table:@"Localizable"] ?: [[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"zh-Hans" ofType:@"lproj"]] localizedStringForKey:(key) value:nil table:@"Localizable"]
+#define Localized(key)  [[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"zh-Hans" ofType:@"lproj"]] localizedStringForKey:(key) value:nil table:@"Localizable"]
+
+#ifdef  DEBUG
+#define KDSLog(FORMAT, ...) fprintf(stderr,"%s:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define KDSLog(...)
+#endif
+#define BluetoothBin                   @"BluetoothBin"   //蓝牙固件文件名
+
+///状态栏高度
+#define kStatusBarHeight [UIApplication sharedApplication].statusBarFrame.size.height
+///导航栏高度
+#define kNavBarHeight 44.0
+///屏幕宽(竖屏)
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+///屏幕高(竖屏)
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define KDSRGBColor(r, g, b)        [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define KDSWeakSelf(type)           __weak typeof(type) weak##type = type;
+
+#endif /* __OBJC__ */
+
+#endif /* PrefixHeader_pch */

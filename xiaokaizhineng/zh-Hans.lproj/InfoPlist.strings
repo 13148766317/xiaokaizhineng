@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  xiaokaizhineng
+
+  Created by orange on 2019/2/22.
+  Copyright © 2019年 shenzhen kaadas intelligent technology. All rights reserved.
+*/
+CFBundleDisplayName = "小凯智能";
+
+//NSLocationAlwaysUsageDescription = "Your location information is used to set up automatic unlock";
+
+NSPhotoLibraryUsageDescription = "在上传头像图片服务中访问您的相册权限";
+
+NSCameraUsageDescription = "在上传头像图片服务中访问您的相机权限";

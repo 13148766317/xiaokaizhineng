@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="KGk-i7-Jjw" customClass="KDSDeviceTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="391" height="127.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="设备列表-X5" translatesAutoresizingMaskIntoConstraints="NO" id="EOE-OF-Glj">
+                        <rect key="frame" x="10" y="11" width="140" height="105.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="140" id="Kx4-tT-bRy"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right" translatesAutoresizingMaskIntoConstraints="NO" id="Dbc-no-MaW">
+                        <rect key="frame" x="374" y="59" width="7" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="RAR-US-sAf"/>
+                            <constraint firstAttribute="width" constant="7" id="pUH-CO-OmV"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="电量60%" translatesAutoresizingMaskIntoConstraints="NO" id="BLi-9y-VSK">
+                        <rect key="frame" x="267" y="58.5" width="18" height="11"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="18" id="TuL-2s-NTQ"/>
+                            <constraint firstAttribute="height" constant="11" id="srO-yk-1fu"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x5智能锁" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VzR-M9-1cU">
+                        <rect key="frame" x="295" y="0.0" width="59" height="127.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Dbc-no-MaW" secondAttribute="trailing" constant="10" id="1Ue-dF-agm"/>
+                    <constraint firstItem="VzR-M9-1cU" firstAttribute="width" relation="lessThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.5" id="6pe-9Y-gK4"/>
+                    <constraint firstItem="VzR-M9-1cU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="CHs-Ec-B3H"/>
+                    <constraint firstItem="EOE-OF-Glj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="GDS-1L-Sgy"/>
+                    <constraint firstItem="Dbc-no-MaW" firstAttribute="leading" secondItem="VzR-M9-1cU" secondAttribute="trailing" constant="20" id="LpP-RH-bvl"/>
+                    <constraint firstItem="Dbc-no-MaW" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="OZR-6O-89i"/>
+                    <constraint firstAttribute="bottom" secondItem="EOE-OF-Glj" secondAttribute="bottom" constant="11" id="aIh-EA-RQj"/>
+                    <constraint firstItem="VzR-M9-1cU" firstAttribute="leading" secondItem="BLi-9y-VSK" secondAttribute="trailing" constant="10" id="dU3-75-Ld6"/>
+                    <constraint firstAttribute="bottom" secondItem="VzR-M9-1cU" secondAttribute="bottom" id="pZY-l8-cC2"/>
+                    <constraint firstItem="EOE-OF-Glj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="vNa-Hr-MKL"/>
+                    <constraint firstItem="BLi-9y-VSK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ypb-wA-aFa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="deviceIconImageView" destination="EOE-OF-Glj" id="G7q-Ys-UDc"/>
+                <outlet property="leadingDeviceConstraint" destination="GDS-1L-Sgy" id="NTn-ZJ-wWO"/>
+                <outlet property="nameLabel" destination="VzR-M9-1cU" id="Kuu-Eh-taF"/>
+                <outlet property="powerIV" destination="BLi-9y-VSK" id="IJJ-HZ-sfk"/>
+            </connections>
+            <point key="canvasLocation" x="194.40000000000001" y="179.01049475262371"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="right" width="10" height="10"/>
+        <image name="电量60%" width="18" height="11"/>
+        <image name="设备列表-X5" width="140" height="140"/>
+    </resources>
+</document>

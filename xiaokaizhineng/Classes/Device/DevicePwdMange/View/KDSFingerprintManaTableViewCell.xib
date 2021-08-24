@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="KDSFingerprintManaTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l89-Yk-dlc">
+                        <rect key="frame" x="13" y="0.0" width="22" height="42.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="duh-bN-mvP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="朋友" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLw-pp-nA3">
+                        <rect key="frame" x="45" y="0.0" width="206" height="42.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right" translatesAutoresizingMaskIntoConstraints="NO" id="yyF-fb-R2L">
+                        <rect key="frame" x="300" y="17" width="7" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="7" id="2sE-9W-wdj"/>
+                            <constraint firstAttribute="height" constant="10" id="iIG-P0-2yu"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G3g-Wh-fFR">
+                        <rect key="frame" x="15" y="42.5" width="305" height="1"/>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="flR-Hf-3sQ"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="指纹管理" translatesAutoresizingMaskIntoConstraints="NO" id="G5z-CL-Ly8">
+                        <rect key="frame" x="261" y="12.5" width="19" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="UHp-pe-pn7"/>
+                            <constraint firstAttribute="width" constant="19" id="z4k-XM-i7F"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="l89-Yk-dlc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="2ud-8a-2rG"/>
+                    <constraint firstItem="yyF-fb-R2L" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="3Zp-y1-ynP"/>
+                    <constraint firstItem="G3g-Wh-fFR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Ihg-dD-CXA"/>
+                    <constraint firstItem="G3g-Wh-fFR" firstAttribute="top" secondItem="uLw-pp-nA3" secondAttribute="bottom" id="IuV-zn-VJh"/>
+                    <constraint firstAttribute="trailing" secondItem="yyF-fb-R2L" secondAttribute="trailing" constant="13" id="KbA-Sp-nkN"/>
+                    <constraint firstAttribute="bottom" secondItem="G3g-Wh-fFR" secondAttribute="bottom" id="N5H-iX-dkw"/>
+                    <constraint firstAttribute="trailing" secondItem="G3g-Wh-fFR" secondAttribute="trailing" id="U42-tK-Vkh"/>
+                    <constraint firstItem="G5z-CL-Ly8" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="bQC-ve-aPv"/>
+                    <constraint firstItem="G5z-CL-Ly8" firstAttribute="leading" secondItem="uLw-pp-nA3" secondAttribute="trailing" constant="10" id="c7S-G8-wqC"/>
+                    <constraint firstItem="uLw-pp-nA3" firstAttribute="leading" secondItem="l89-Yk-dlc" secondAttribute="trailing" constant="10" id="dsj-sH-0r2"/>
+                    <constraint firstItem="uLw-pp-nA3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hf3-XF-Fqd"/>
+                    <constraint firstItem="l89-Yk-dlc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="nOv-I0-xgp"/>
+                    <constraint firstItem="yyF-fb-R2L" firstAttribute="leading" secondItem="G5z-CL-Ly8" secondAttribute="trailing" constant="20" id="r00-yB-OKz"/>
+                    <constraint firstItem="G3g-Wh-fFR" firstAttribute="top" secondItem="l89-Yk-dlc" secondAttribute="bottom" id="zwX-Vy-M21"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="nameLabel" destination="uLw-pp-nA3" id="1q5-m5-F4d"/>
+                <outlet property="numberLabel" destination="l89-Yk-dlc" id="S2Y-R0-92O"/>
+                <outlet property="separatorView" destination="G3g-Wh-fFR" id="b8R-aK-pAJ"/>
+            </connections>
+            <point key="canvasLocation" x="97.599999999999994" y="48.575712143928037"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="right" width="10" height="10"/>
+        <image name="指纹管理" width="19" height="19"/>
+    </resources>
+</document>

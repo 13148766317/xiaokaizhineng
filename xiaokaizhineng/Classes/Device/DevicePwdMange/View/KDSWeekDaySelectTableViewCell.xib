@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="65" id="KGk-i7-Jjw" customClass="KDSWeekDaySelectTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="64.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hn0-5K-T5s">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="64.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每周一" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qjw-FH-KqK">
+                                <rect key="frame" x="17" y="24" width="43" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.16862745100000001" green="0.1843137255" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="周重复选择-选中" translatesAutoresizingMaskIntoConstraints="NO" id="D5n-5e-ixw">
+                                <rect key="frame" x="278" y="20.5" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="7VX-P2-6em"/>
+                                    <constraint firstAttribute="height" constant="24" id="mSP-0p-Mrx"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ic0-Gk-znn">
+                                <rect key="frame" x="10" y="63.5" width="300" height="1"/>
+                                <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="AgZ-YN-dR4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="D5n-5e-ixw" secondAttribute="trailing" constant="18" id="3UT-C0-AeN"/>
+                            <constraint firstAttribute="trailing" secondItem="ic0-Gk-znn" secondAttribute="trailing" constant="10" id="Vqm-gP-pUu"/>
+                            <constraint firstAttribute="bottom" secondItem="ic0-Gk-znn" secondAttribute="bottom" id="c9T-Od-jIq"/>
+                            <constraint firstItem="Qjw-FH-KqK" firstAttribute="centerY" secondItem="Hn0-5K-T5s" secondAttribute="centerY" id="gRs-i1-hWk"/>
+                            <constraint firstItem="ic0-Gk-znn" firstAttribute="leading" secondItem="Hn0-5K-T5s" secondAttribute="leading" constant="10" id="pAK-r0-mHe"/>
+                            <constraint firstItem="Qjw-FH-KqK" firstAttribute="leading" secondItem="Hn0-5K-T5s" secondAttribute="leading" constant="17" id="tO6-EN-bxm"/>
+                            <constraint firstItem="D5n-5e-ixw" firstAttribute="centerY" secondItem="Hn0-5K-T5s" secondAttribute="centerY" id="x0q-Af-n0c"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Hn0-5K-T5s" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Idr-LJ-qVe"/>
+                    <constraint firstAttribute="bottom" secondItem="Hn0-5K-T5s" secondAttribute="bottom" id="PF0-3u-fMN"/>
+                    <constraint firstItem="Hn0-5K-T5s" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="V3G-Hl-wfv"/>
+                    <constraint firstAttribute="trailing" secondItem="Hn0-5K-T5s" secondAttribute="trailing" id="nu7-3B-Iyw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="imageTagView" destination="D5n-5e-ixw" id="tNp-Yw-wjK"/>
+                <outlet property="weekDayLab" destination="Qjw-FH-KqK" id="h2t-k2-Pvk"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="163.26836581709148"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="周重复选择-选中" width="24" height="24"/>
+    </resources>
+</document>
